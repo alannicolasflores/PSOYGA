@@ -27,8 +27,8 @@ def main():
         child1 = mutation.mutate(child1, SETTINGS["mutation_rate"], bounds)
         child2 = mutation.mutate(child2, SETTINGS["mutation_rate"], bounds)
 
+        # Reemplazo
         pop = replacement.replace_population(pop, [child1, child2], fitness, obj_func)
-
 
         # Mostrar el mejor resultado de la generación
         best_fitness = min(fitness)
