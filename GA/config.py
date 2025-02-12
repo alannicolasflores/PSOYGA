@@ -1,9 +1,11 @@
 SETTINGS = {
-    "population_size": 100,          # Número de individuos en la población
-    "generations": 500,              # Número de generaciones
-    "mutation_rate": 0.1,           # Tasa de mutación
-    "crossover_rate": 0.8,          # Tasa de cruce
-    "dimensions": 10,               # Dimensión del problema
-    "bounds": [-5.12, 5.12],        # Límites para las variables
-    "objective_function": "sphere"  # Cambia a "rastrigin" u otras funciones
+    "generations": 500,
+    "population_size": 20,
+    "mutation_rate": 0.05,
+    "selection": {"k": 3},  # Parámetro del torneo
+    "weights": {  # Asegúrate de que esta clave existe
+        "w_a": 0.8,  # Peso de adecuación
+        "w_d": 0.2  # Peso de penalización
+    },
+    "bounds": (0, 1)  # Límites para la mutación
 }
