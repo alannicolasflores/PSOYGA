@@ -1,0 +1,98 @@
+
+## Perfil del Estudiante
+**Nombre:** Alan Joel  
+**Estilos de Aprendizaje:**
+- Visual: 40%
+- Auditivo: 30%
+- Lectura/Escritura: 20%
+- Kinestésico: 10%
+
+**Niveles de Conocimiento por Tema:**
+1. Introducción a las metodologías de software → Nivel 2
+2. Metodología Cascada → Nivel 1
+3. Metodologías Ágiles → Nivel 3
+4. Metodología Espiral → Nivel 2
+5. Metodologías Híbridas → Nivel 1
+
+---
+
+## Recursos Seleccionados en el Peor Caso
+Dado que la optimización no puede priorizar correctamente, el estudiante debe estudiar **todos los temas y recursos disponibles**:
+
+### **Módulo 1: Fundamentos de Ingeniería de Software**
+#### **Tema: Introducción a las metodologías de software**
+- Comparativa de metodologías (Dificultad: 2, Baja adecuación)
+
+#### **Tema: Metodología Cascada**
+- Ventajas y desventajas (Dificultad: 2, Mala adecuación con lectura/escritura predominante)
+
+#### **Tema: Metodologías Ágiles**
+- Introducción a Scrum (Dificultad: 1, Demasiado fácil para el estudiante)
+
+#### **Tema: Metodología Espiral**
+- Guía de la metodología espiral (Dificultad: 2, Poca adecuación)
+
+#### **Tema: Metodologías Híbridas**
+- Guía para metodologías híbridas (Dificultad: 3, Excesivamente difícil)
+
+---
+
+## Explicación del Peor Caso
+1. **El modelo no puede identificar recursos relevantes**, por lo que selecciona **todos los recursos**.
+2. **Las diferencias de dificultad y conocimiento no están bien gestionadas**, por lo que se asignan recursos demasiado fáciles o difíciles.
+3. **Las puntuaciones de adecuación son bajas en todos los casos**, haciendo que ningún recurso sea descartado.
+
+---
+
+## Cálculo de la Puntuación del Peor Caso
+Se evaluaron los recursos con la función objetivo:
+
+| Recurso                      | Dificultad | Conocimiento Estudiante | Adecuación | Puntuación |
+|------------------------------|------------|-------------------------|------------|------------|
+| Comparativa de metodologías  | 2          | 2                       | 20.0       | 28.0       |
+| Ventajas y desventajas       | 2          | 1                       | 15.0       | 21.5       |
+| Introducción a Scrum         | 1          | 3                       | 5.0        | 5.5        |
+| Guía de la metodología espiral | 2       | 2                       | 10.0       | 15.0       |
+| Guía para metodologías híbridas | 3      | 1                       | 10.0       | 13.0       |
+
+**Peor Fitness Obtenido:**  **5.5**  
+
+---
+
+## Mejor Caso de Optimización de Recursos Educativos
+
+### **Recursos Seleccionados en el Mejor Caso**
+
+| Recurso                      | Dificultad | Conocimiento Estudiante | Adecuación | Puntuación |
+|------------------------------|------------|-------------------------|------------|------------|
+| Historia de las metodologías | 1          | 2                       | 95.0       | 141.5      |
+| Proceso en cascada           | 1          | 1                       | 90.0       | 135.0      |
+| Introducción a Scrum         | 1          | 3                       | 95.0       | 140.5      |
+| Iteraciones en espiral       | 1          | 2                       | 100.0      | 149.0      |
+| Híbridos exitosos            | 2          | 1                       | 100.0      | 149.0      |
+
+---
+
+## Explicación del Mejor Caso
+1. **Selección de recursos más fáciles** → Se priorizaron recursos con menor dificultad para evitar penalizaciones.
+2. **Adecuación alta** → Se seleccionaron recursos con perfiles de aprendizaje más cercanos a los del estudiante.
+3. **Puntuaciones altas** → La combinación de alta adecuación y ajuste de dificultad resultó en valores óptimos.
+
+---
+
+## Variables Utilizadas en la Función Objetivo
+**Fórmula de la Puntuación:**
+\[
+P(R) = w_a \times \text{adecuación} - w_d \times |\text{dificultad} - \text{conocimiento}|
+\]
+
+**Variables:**
+- **Adecuación:** Nivel de coincidencia entre los estilos de aprendizaje del recurso y del estudiante.
+- **Dificultad:** Nivel de dificultad del recurso.
+- **Conocimiento:** Nivel de conocimiento del estudiante en el tema.
+- **w_a = 1.5** (Peso de la adecuación del recurso al estudiante).
+- **w_d = 1.0** (Peso de la penalización por diferencia entre dificultad y conocimiento).
+
+---
+
+
