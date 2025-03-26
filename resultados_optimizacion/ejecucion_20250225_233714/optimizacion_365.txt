@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 365 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.8% de uso
+Recurso 2: 86.5% de uso
+Recurso 3: 76.1% de uso
+Recurso 4: 73.3% de uso
+Recurso 5: 54.9% de uso
+Recurso 6: 96.1% de uso
+Recurso 7: 97.6% de uso
+Recurso 8: 67.5% de uso
+Recurso 10: 94.5% de uso
+Recurso 13: 62.0% de uso

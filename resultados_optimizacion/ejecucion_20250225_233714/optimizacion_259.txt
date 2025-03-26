@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 259 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.6% de uso
+Recurso 3: 89.9% de uso
+Recurso 4: 61.7% de uso
+Recurso 6: 65.1% de uso
+Recurso 7: 64.3% de uso
+Recurso 9: 82.6% de uso
+Recurso 10: 92.6% de uso
+Recurso 11: 99.5% de uso

@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 322 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.7% de uso
+Recurso 2: 64.9% de uso
+Recurso 3: 99.3% de uso
+Recurso 4: 65.5% de uso
+Recurso 5: 52.2% de uso
+Recurso 6: 86.0% de uso
+Recurso 7: 52.8% de uso
+Recurso 8: 87.3% de uso
+Recurso 10: 94.3% de uso
+Recurso 13: 78.1% de uso

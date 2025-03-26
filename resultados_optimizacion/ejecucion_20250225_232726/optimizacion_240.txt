@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 240 ===
+
+Puntuación final: 0.63
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 68.3% de uso
+Recurso 2: 96.4% de uso
+Recurso 3: 97.8% de uso
+Recurso 4: 71.0% de uso
+Recurso 6: 73.4% de uso
+Recurso 7: 69.5% de uso
+Recurso 8: 88.2% de uso
+Recurso 9: 78.6% de uso
+Recurso 10: 69.7% de uso
+Recurso 11: 54.5% de uso
+Recurso 13: 59.1% de uso

@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 251 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.9% de uso
+Recurso 3: 82.1% de uso
+Recurso 4: 99.2% de uso
+Recurso 5: 71.1% de uso
+Recurso 7: 86.3% de uso
+Recurso 8: 69.0% de uso
+Recurso 9: 81.0% de uso
+Recurso 10: 95.4% de uso
+Recurso 11: 74.8% de uso
+Recurso 13: 86.3% de uso

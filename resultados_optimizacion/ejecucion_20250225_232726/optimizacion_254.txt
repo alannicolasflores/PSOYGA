@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 254 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 83.5% de uso
+Recurso 2: 59.8% de uso
+Recurso 3: 93.2% de uso
+Recurso 4: 75.5% de uso
+Recurso 7: 97.5% de uso
+Recurso 8: 56.9% de uso
+Recurso 9: 90.2% de uso
+Recurso 10: 98.4% de uso

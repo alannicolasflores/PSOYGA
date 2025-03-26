@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 192 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.5% de uso
+Recurso 2: 79.2% de uso
+Recurso 3: 98.2% de uso
+Recurso 4: 92.6% de uso
+Recurso 5: 73.9% de uso
+Recurso 6: 60.0% de uso
+Recurso 7: 96.9% de uso
+Recurso 10: 67.0% de uso
+Recurso 11: 89.7% de uso

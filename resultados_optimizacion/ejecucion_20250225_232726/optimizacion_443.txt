@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 443 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 88.9% de uso
+Recurso 2: 96.7% de uso
+Recurso 3: 79.9% de uso
+Recurso 4: 79.4% de uso
+Recurso 5: 78.9% de uso
+Recurso 7: 83.5% de uso
+Recurso 8: 53.4% de uso
+Recurso 10: 96.6% de uso
+Recurso 11: 91.9% de uso
+Recurso 13: 87.3% de uso

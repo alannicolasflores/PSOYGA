@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 368 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 61.1% de uso
+Recurso 2: 71.1% de uso
+Recurso 3: 78.8% de uso
+Recurso 4: 66.3% de uso
+Recurso 6: 77.1% de uso
+Recurso 7: 94.9% de uso
+Recurso 9: 86.0% de uso
+Recurso 10: 94.5% de uso
+Recurso 13: 66.4% de uso

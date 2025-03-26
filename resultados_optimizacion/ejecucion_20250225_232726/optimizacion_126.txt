@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 126 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 89.2% de uso
+Recurso 3: 81.8% de uso
+Recurso 4: 72.0% de uso
+Recurso 5: 93.2% de uso
+Recurso 7: 99.7% de uso
+Recurso 8: 82.5% de uso
+Recurso 9: 91.1% de uso
+Recurso 10: 77.1% de uso
+Recurso 11: 72.1% de uso

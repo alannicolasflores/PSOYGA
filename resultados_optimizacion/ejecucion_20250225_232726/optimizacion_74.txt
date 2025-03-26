@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 74 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.0% de uso
+Recurso 2: 98.9% de uso
+Recurso 3: 92.2% de uso
+Recurso 4: 83.9% de uso
+Recurso 5: 98.7% de uso
+Recurso 6: 91.3% de uso
+Recurso 7: 98.4% de uso
+Recurso 10: 90.1% de uso
+Recurso 11: 86.1% de uso

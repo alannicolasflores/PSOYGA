@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 123 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.0% de uso
+Recurso 2: 98.6% de uso
+Recurso 3: 98.2% de uso
+Recurso 4: 90.2% de uso
+Recurso 5: 91.7% de uso
+Recurso 7: 90.1% de uso
+Recurso 8: 70.6% de uso
+Recurso 9: 51.0% de uso
+Recurso 10: 73.2% de uso
+Recurso 11: 54.9% de uso
+Recurso 13: 61.2% de uso

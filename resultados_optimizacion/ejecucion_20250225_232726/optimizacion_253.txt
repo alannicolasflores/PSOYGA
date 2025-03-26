@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 253 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.7% de uso
+Recurso 2: 97.8% de uso
+Recurso 3: 76.3% de uso
+Recurso 4: 78.2% de uso
+Recurso 5: 61.9% de uso
+Recurso 6: 57.3% de uso
+Recurso 7: 97.1% de uso
+Recurso 9: 55.6% de uso
+Recurso 10: 70.8% de uso
+Recurso 11: 91.0% de uso

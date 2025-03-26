@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 359 ===
+
+Puntuación final: 0.62
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.8% de uso
+Recurso 2: 76.9% de uso
+Recurso 3: 99.4% de uso
+Recurso 4: 95.3% de uso
+Recurso 7: 99.0% de uso
+Recurso 8: 79.8% de uso
+Recurso 9: 67.2% de uso
+Recurso 10: 74.9% de uso
+Recurso 11: 95.6% de uso
+Recurso 13: 80.1% de uso
+Recurso 14: 88.8% de uso

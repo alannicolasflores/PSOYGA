@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 422 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 90.7% de uso
+Recurso 2: 95.2% de uso
+Recurso 3: 90.5% de uso
+Recurso 4: 86.8% de uso
+Recurso 7: 100.0% de uso
+Recurso 8: 69.3% de uso
+Recurso 9: 71.5% de uso
+Recurso 10: 71.1% de uso
+Recurso 11: 88.5% de uso
+Recurso 13: 51.3% de uso

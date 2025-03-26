@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 22 ===
+
+Puntuación final: 0.81
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.4% de uso
+Recurso 3: 99.4% de uso
+Recurso 4: 93.9% de uso
+Recurso 5: 80.5% de uso
+Recurso 6: 82.3% de uso
+Recurso 7: 97.4% de uso
+Recurso 10: 98.7% de uso
+Recurso 11: 79.6% de uso

@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 10 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.4% de uso
+Recurso 3: 74.1% de uso
+Recurso 4: 83.1% de uso
+Recurso 5: 98.6% de uso
+Recurso 6: 60.8% de uso
+Recurso 7: 84.6% de uso
+Recurso 9: 95.0% de uso
+Recurso 10: 91.9% de uso
+Recurso 11: 99.1% de uso
+Recurso 13: 65.6% de uso

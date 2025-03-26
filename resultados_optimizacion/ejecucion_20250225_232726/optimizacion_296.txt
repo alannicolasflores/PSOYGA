@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 296 ===
+
+Puntuación final: 0.61
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.7% de uso
+Recurso 2: 65.3% de uso
+Recurso 3: 57.7% de uso
+Recurso 4: 88.3% de uso
+Recurso 7: 55.6% de uso
+Recurso 10: 68.7% de uso
+Recurso 13: 70.7% de uso

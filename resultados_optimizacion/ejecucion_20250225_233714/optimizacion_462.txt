@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 462 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 61.0% de uso
+Recurso 3: 52.7% de uso
+Recurso 4: 98.9% de uso
+Recurso 5: 68.9% de uso
+Recurso 7: 92.5% de uso
+Recurso 9: 58.4% de uso
+Recurso 10: 98.6% de uso

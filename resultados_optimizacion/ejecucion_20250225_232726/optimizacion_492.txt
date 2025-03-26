@@ -1,0 +1,11 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 492 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.7% de uso
+Recurso 3: 76.5% de uso
+Recurso 4: 97.1% de uso
+Recurso 5: 72.9% de uso
+Recurso 7: 62.3% de uso
+Recurso 10: 95.7% de uso

@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 180 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.0% de uso
+Recurso 2: 86.4% de uso
+Recurso 3: 74.0% de uso
+Recurso 4: 80.8% de uso
+Recurso 6: 62.9% de uso
+Recurso 7: 99.6% de uso
+Recurso 9: 69.7% de uso
+Recurso 10: 89.4% de uso
+Recurso 11: 96.2% de uso

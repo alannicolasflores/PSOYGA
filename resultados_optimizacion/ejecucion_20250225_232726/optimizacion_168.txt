@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 168 ===
+
+Puntuación final: 0.56
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 91.6% de uso
+Recurso 3: 82.8% de uso
+Recurso 4: 95.6% de uso
+Recurso 6: 81.9% de uso
+Recurso 7: 58.1% de uso
+Recurso 8: 82.4% de uso
+Recurso 9: 54.6% de uso
+Recurso 10: 60.3% de uso
+Recurso 12: 50.2% de uso
+Recurso 13: 89.5% de uso

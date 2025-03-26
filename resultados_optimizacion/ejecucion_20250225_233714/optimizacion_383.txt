@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 383 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 91.8% de uso
+Recurso 2: 71.2% de uso
+Recurso 3: 94.4% de uso
+Recurso 4: 73.8% de uso
+Recurso 5: 99.6% de uso
+Recurso 6: 62.3% de uso
+Recurso 7: 88.4% de uso
+Recurso 10: 90.5% de uso
+Recurso 13: 61.6% de uso

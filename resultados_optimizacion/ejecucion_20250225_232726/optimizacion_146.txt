@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 146 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 78.7% de uso
+Recurso 3: 90.9% de uso
+Recurso 4: 91.8% de uso
+Recurso 7: 85.2% de uso
+Recurso 8: 51.4% de uso
+Recurso 10: 71.2% de uso
+Recurso 11: 50.4% de uso

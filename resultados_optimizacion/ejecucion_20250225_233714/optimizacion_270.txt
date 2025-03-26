@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 270 ===
+
+Puntuación final: 0.74
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 84.1% de uso
+Recurso 2: 87.0% de uso
+Recurso 3: 74.1% de uso
+Recurso 4: 97.8% de uso
+Recurso 6: 73.4% de uso
+Recurso 7: 92.2% de uso
+Recurso 9: 60.8% de uso
+Recurso 10: 96.7% de uso

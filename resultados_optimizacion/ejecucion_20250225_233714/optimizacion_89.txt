@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 89 ===
+
+Puntuación final: 0.65
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.2% de uso
+Recurso 2: 73.8% de uso
+Recurso 3: 66.5% de uso
+Recurso 4: 96.1% de uso
+Recurso 5: 93.7% de uso
+Recurso 7: 79.8% de uso
+Recurso 9: 85.6% de uso
+Recurso 10: 55.2% de uso
+Recurso 11: 68.6% de uso
+Recurso 13: 52.2% de uso

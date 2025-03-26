@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 458 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 88.8% de uso
+Recurso 2: 63.0% de uso
+Recurso 3: 80.4% de uso
+Recurso 4: 74.7% de uso
+Recurso 7: 66.2% de uso
+Recurso 8: 62.6% de uso
+Recurso 10: 94.9% de uso
+Recurso 11: 55.7% de uso

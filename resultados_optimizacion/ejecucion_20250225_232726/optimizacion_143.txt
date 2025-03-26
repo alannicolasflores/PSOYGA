@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 143 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 90.1% de uso
+Recurso 2: 86.0% de uso
+Recurso 3: 91.4% de uso
+Recurso 4: 94.7% de uso
+Recurso 7: 77.5% de uso
+Recurso 8: 64.9% de uso
+Recurso 9: 96.1% de uso
+Recurso 10: 70.5% de uso
+Recurso 11: 75.5% de uso
+Recurso 13: 85.6% de uso

@@ -1,0 +1,17 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 152 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 67.0% de uso
+Recurso 2: 56.2% de uso
+Recurso 3: 99.2% de uso
+Recurso 4: 85.7% de uso
+Recurso 5: 62.0% de uso
+Recurso 6: 88.1% de uso
+Recurso 7: 93.5% de uso
+Recurso 8: 54.5% de uso
+Recurso 9: 77.5% de uso
+Recurso 10: 88.9% de uso
+Recurso 11: 85.9% de uso
+Recurso 13: 83.5% de uso

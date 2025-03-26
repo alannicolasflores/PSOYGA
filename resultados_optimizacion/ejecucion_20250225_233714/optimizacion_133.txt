@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 133 ===
+
+Puntuación final: 0.65
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.9% de uso
+Recurso 2: 66.4% de uso
+Recurso 3: 92.3% de uso
+Recurso 4: 60.5% de uso
+Recurso 5: 58.7% de uso
+Recurso 6: 83.4% de uso
+Recurso 7: 78.5% de uso
+Recurso 10: 67.7% de uso
+Recurso 11: 84.4% de uso
+Recurso 13: 83.5% de uso

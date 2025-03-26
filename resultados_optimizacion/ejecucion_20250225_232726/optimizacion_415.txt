@@ -1,0 +1,11 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 415 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.3% de uso
+Recurso 2: 82.9% de uso
+Recurso 3: 87.3% de uso
+Recurso 4: 99.5% de uso
+Recurso 7: 91.4% de uso
+Recurso 10: 77.6% de uso

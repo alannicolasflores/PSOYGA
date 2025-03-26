@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 186 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 77.7% de uso
+Recurso 3: 86.5% de uso
+Recurso 4: 91.7% de uso
+Recurso 6: 92.6% de uso
+Recurso 7: 89.3% de uso
+Recurso 8: 66.4% de uso
+Recurso 10: 85.6% de uso
+Recurso 11: 69.3% de uso
+Recurso 13: 54.7% de uso

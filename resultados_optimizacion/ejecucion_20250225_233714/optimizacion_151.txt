@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 151 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 86.2% de uso
+Recurso 2: 50.0% de uso
+Recurso 3: 68.1% de uso
+Recurso 4: 99.6% de uso
+Recurso 5: 86.8% de uso
+Recurso 6: 77.8% de uso
+Recurso 7: 77.1% de uso
+Recurso 8: 59.7% de uso
+Recurso 10: 98.9% de uso
+Recurso 11: 50.9% de uso
+Recurso 13: 87.4% de uso

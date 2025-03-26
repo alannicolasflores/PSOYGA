@@ -1,33 +1,37 @@
-import sys
 import os
-from optimizer.data_loader import load_data
-from optimizer.resource_processor import extract_resources
-from optimizer.optimizer import optimize_resources
 import json
-# Agregar el directorio raíz del proyecto al path para importar módulos personalizados
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from datetime import datetime
+from .optimizer.data_loader import load_data, preprocess_data_from_json
+from .optimizer.resource_processor import extract_resources
+from .optimizer.optimizer import optimize_resources
 
-def main():
-    """
-    Función principal que carga los datos, extrae los recursos y ejecuta la optimización.
-    """
-    # Cargar datos del alumno y unidad de aprendizaje
-    alumno, unidad_aprendizaje = load_data()
+def run(alumno=None, unidad_aprendizaje=None):
+    if alumno and unidad_aprendizaje:
+        student_knowledge, student_styles, resources = preprocess_data_from_json(alumno, unidad_aprendizaje)
+    else:
+        alumno, unidad_aprendizaje = load_data()
+        student_knowledge = {tema["id_tema"]: tema["nivel"] for tema in alumno.get("test_inicial", {}).get("temas", [])}
+        student_styles = alumno.get("tipos_aprendizaje", {})
+        resources = extract_resources(unidad_aprendizaje)
 
-    # Extraer información de los recursos disponibles
-    student_knowledge = {tema["id_tema"]: tema["nivel"] for tema in alumno.get("test_inicial", {}).get("temas", [])}
-    student_styles = alumno.get("tipos_aprendizaje", {})
-#  print("🔍 Verificando estructura de `unidad_aprendizaje` antes de procesarlo...")
- #   print(json.dumps(unidad_aprendizaje, indent=2))  # Esto imprimirá el JSON cargado con formato legible
-
-    resources = extract_resources(unidad_aprendizaje)  # Extrae los recursos
-
-    # Optimizar la selección de recursos educativos
     best_solution, best_score = optimize_resources(student_knowledge, student_styles, resources)
 
-    # Mostrar los resultados
-    #print(f"Mejor combinación de recursos: {best_solution}")
-    print(f"Mejor puntaje obtenido: {best_score}")
+    asignacion = []
+    tema_index = 0
+    for modulo in unidad_aprendizaje.get("modulos", []):
+        for tema in modulo.get("temas", []):
+            materiales_tema = []
+            for recurso in tema.get("recursos", []):
+                if tema_index < len(best_solution) and best_solution[tema_index] == 1:
+                    materiales_tema.append({
+                        "titulo": recurso.get("nombre"),
+                        "tipo": recurso.get("tipo")
+                    })
+                tema_index += 1
+            if materiales_tema:
+                asignacion.append({
+                    "tema": tema.get("nombre"),
+                    "materiales": materiales_tema
+                })
 
-if __name__ == "__main__":
-    main()
+    return best_solution, best_score, asignacion

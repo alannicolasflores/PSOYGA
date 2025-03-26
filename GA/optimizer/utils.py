@@ -28,27 +28,17 @@ def difficulty_penalty(difficulty, knowledge, tolerance=1):
 
 def preprocess_resource_data(resources, student_knowledge, student_styles):
     """
-    Preprocesa los datos de los recursos, calculando la adecuación y ajustando los valores
-    antes de ser evaluados en la función objetivo.
+    Preprocesa los datos de los recursos para el optimizador.
     """
     processed_resources = []
+    
     for resource in resources:
-        # Verificar que el recurso tenga un ID válido
-        resource_id = resource.get("resource_id")  # Usar "resource_id" en lugar de "id"
-        if resource_id is None:
-            print(f" Advertencia: Se encontró un recurso sin 'resource_id'. Recurso omitido: {resource}")
-            continue  # Saltar este recurso
-
-        adequacy = calculate_adequacy(resource.get("learning_styles", {}), student_styles)
-        print(f"Recurso {resource['resource_id']} - Adecuación calculada: {adequacy}")
-
-        processed_resources.append({
-            "topic_id": resource.get("topic_id", 0),
-            "resource_id": resource_id,  # Corregido
-            "difficulty": resource.get("difficulty", 0),
-            "knowledge": student_knowledge.get(resource.get("topic_id"), 0),
-            "adequacy": adequacy
-        })
-
+        processed_resource = {
+            'learning_styles': resource['learning_styles'],
+            'difficulty': resource['difficulty'],
+            'knowledge': student_knowledge.get(resource['topic_id'], 0)
+        }
+        processed_resources.append(processed_resource)
+    
     return processed_resources
 

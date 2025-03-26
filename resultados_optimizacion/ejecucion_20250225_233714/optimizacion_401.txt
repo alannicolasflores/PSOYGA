@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 401 ===
+
+Puntuación final: 0.79
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.5% de uso
+Recurso 3: 98.5% de uso
+Recurso 4: 86.4% de uso
+Recurso 6: 95.7% de uso
+Recurso 7: 91.1% de uso
+Recurso 8: 97.0% de uso
+Recurso 10: 99.7% de uso
+Recurso 11: 68.1% de uso

@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 230 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.3% de uso
+Recurso 2: 60.2% de uso
+Recurso 3: 77.1% de uso
+Recurso 4: 78.3% de uso
+Recurso 6: 84.1% de uso
+Recurso 7: 95.9% de uso
+Recurso 8: 95.4% de uso
+Recurso 9: 69.3% de uso
+Recurso 10: 86.4% de uso
+Recurso 11: 67.0% de uso
+Recurso 13: 90.2% de uso

@@ -1,0 +1,14 @@
+=== MEJOR RESULTADO GLOBAL ===
+
+Mejor puntuación: 0.78
+
+Mejor ruta de aprendizaje:
+Recurso 1: 95.0% de uso
+Recurso 2: 60.7% de uso
+Recurso 3: 92.1% de uso
+Recurso 4: 97.3% de uso
+Recurso 6: 95.9% de uso
+Recurso 7: 94.7% de uso
+Recurso 8: 55.9% de uso
+Recurso 9: 81.7% de uso
+Recurso 10: 90.8% de uso

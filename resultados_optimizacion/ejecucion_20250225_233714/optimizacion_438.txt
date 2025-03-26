@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 438 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 65.7% de uso
+Recurso 2: 71.4% de uso
+Recurso 3: 92.0% de uso
+Recurso 4: 61.3% de uso
+Recurso 6: 81.9% de uso
+Recurso 7: 99.5% de uso
+Recurso 8: 71.1% de uso
+Recurso 9: 95.1% de uso
+Recurso 10: 97.1% de uso
+Recurso 13: 97.3% de uso

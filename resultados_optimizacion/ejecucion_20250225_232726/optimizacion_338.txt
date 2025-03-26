@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 338 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.8% de uso
+Recurso 3: 94.4% de uso
+Recurso 4: 96.6% de uso
+Recurso 6: 69.2% de uso
+Recurso 7: 74.3% de uso
+Recurso 8: 86.4% de uso
+Recurso 10: 98.1% de uso
+Recurso 11: 94.7% de uso
+Recurso 13: 68.1% de uso

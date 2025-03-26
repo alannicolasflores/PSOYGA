@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 348 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.8% de uso
+Recurso 3: 52.1% de uso
+Recurso 4: 91.7% de uso
+Recurso 6: 56.7% de uso
+Recurso 7: 93.4% de uso
+Recurso 8: 68.7% de uso
+Recurso 10: 88.9% de uso
+Recurso 13: 50.1% de uso

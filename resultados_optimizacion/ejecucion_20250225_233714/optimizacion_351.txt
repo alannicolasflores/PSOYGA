@@ -1,0 +1,11 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 351 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.2% de uso
+Recurso 3: 90.0% de uso
+Recurso 4: 73.0% de uso
+Recurso 5: 86.5% de uso
+Recurso 7: 98.2% de uso
+Recurso 10: 74.5% de uso

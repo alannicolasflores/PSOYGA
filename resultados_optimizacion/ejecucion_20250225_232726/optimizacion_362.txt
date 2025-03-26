@@ -1,0 +1,11 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 362 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.0% de uso
+Recurso 3: 98.7% de uso
+Recurso 4: 86.0% de uso
+Recurso 7: 73.0% de uso
+Recurso 10: 97.5% de uso
+Recurso 13: 94.9% de uso

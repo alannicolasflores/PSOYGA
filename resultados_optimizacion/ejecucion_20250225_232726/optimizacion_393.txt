@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 393 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.0% de uso
+Recurso 2: 67.4% de uso
+Recurso 3: 91.0% de uso
+Recurso 4: 93.2% de uso
+Recurso 5: 59.8% de uso
+Recurso 7: 98.0% de uso
+Recurso 8: 76.7% de uso
+Recurso 10: 50.6% de uso

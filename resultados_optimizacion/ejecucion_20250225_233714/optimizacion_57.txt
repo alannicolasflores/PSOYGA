@@ -1,0 +1,17 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 57 ===
+
+Puntuación final: 0.65
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.6% de uso
+Recurso 2: 58.6% de uso
+Recurso 3: 67.4% de uso
+Recurso 4: 64.9% de uso
+Recurso 5: 83.0% de uso
+Recurso 6: 93.3% de uso
+Recurso 7: 87.6% de uso
+Recurso 8: 70.7% de uso
+Recurso 9: 96.7% de uso
+Recurso 10: 77.3% de uso
+Recurso 11: 76.0% de uso
+Recurso 13: 93.0% de uso

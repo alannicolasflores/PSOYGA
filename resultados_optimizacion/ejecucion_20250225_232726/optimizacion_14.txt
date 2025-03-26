@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 14 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.0% de uso
+Recurso 3: 94.0% de uso
+Recurso 4: 85.7% de uso
+Recurso 5: 99.4% de uso
+Recurso 6: 79.9% de uso
+Recurso 7: 91.1% de uso
+Recurso 8: 50.4% de uso
+Recurso 9: 71.4% de uso
+Recurso 10: 92.7% de uso
+Recurso 13: 87.4% de uso

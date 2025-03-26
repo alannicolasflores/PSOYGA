@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 288 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.8% de uso
+Recurso 2: 77.1% de uso
+Recurso 3: 83.5% de uso
+Recurso 4: 88.1% de uso
+Recurso 6: 93.0% de uso
+Recurso 7: 93.5% de uso
+Recurso 9: 57.8% de uso
+Recurso 10: 85.4% de uso
+Recurso 13: 59.4% de uso

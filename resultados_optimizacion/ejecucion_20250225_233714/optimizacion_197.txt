@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 197 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.2% de uso
+Recurso 3: 87.4% de uso
+Recurso 4: 94.7% de uso
+Recurso 5: 89.5% de uso
+Recurso 6: 77.3% de uso
+Recurso 7: 92.3% de uso
+Recurso 10: 89.1% de uso

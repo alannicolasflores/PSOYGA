@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 423 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 73.8% de uso
+Recurso 2: 72.7% de uso
+Recurso 3: 89.7% de uso
+Recurso 4: 97.4% de uso
+Recurso 5: 71.4% de uso
+Recurso 6: 93.0% de uso
+Recurso 7: 99.2% de uso
+Recurso 8: 93.8% de uso
+Recurso 10: 93.8% de uso
+Recurso 11: 97.5% de uso
+Recurso 12: 59.7% de uso

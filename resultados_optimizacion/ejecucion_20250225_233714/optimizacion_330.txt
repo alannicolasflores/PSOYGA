@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 330 ===
+
+Puntuación final: 0.62
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 63.9% de uso
+Recurso 2: 82.6% de uso
+Recurso 3: 90.9% de uso
+Recurso 4: 65.7% de uso
+Recurso 7: 79.8% de uso
+Recurso 9: 81.8% de uso
+Recurso 10: 73.3% de uso
+Recurso 13: 88.5% de uso

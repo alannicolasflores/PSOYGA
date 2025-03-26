@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 60 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 82.6% de uso
+Recurso 2: 99.2% de uso
+Recurso 3: 97.3% de uso
+Recurso 4: 83.4% de uso
+Recurso 5: 86.3% de uso
+Recurso 7: 78.2% de uso
+Recurso 8: 63.7% de uso
+Recurso 9: 57.0% de uso
+Recurso 10: 55.6% de uso

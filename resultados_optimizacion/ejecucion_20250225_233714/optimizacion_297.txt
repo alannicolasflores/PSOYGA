@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 297 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 85.7% de uso
+Recurso 2: 57.5% de uso
+Recurso 3: 90.4% de uso
+Recurso 4: 98.8% de uso
+Recurso 5: 67.5% de uso
+Recurso 7: 79.2% de uso
+Recurso 8: 56.1% de uso
+Recurso 9: 50.9% de uso
+Recurso 10: 79.6% de uso
+Recurso 11: 76.3% de uso

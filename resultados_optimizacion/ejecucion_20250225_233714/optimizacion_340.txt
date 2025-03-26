@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 340 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 54.4% de uso
+Recurso 2: 71.2% de uso
+Recurso 3: 69.8% de uso
+Recurso 4: 99.8% de uso
+Recurso 5: 73.5% de uso
+Recurso 7: 96.9% de uso
+Recurso 9: 93.9% de uso
+Recurso 10: 76.1% de uso
+Recurso 11: 85.9% de uso

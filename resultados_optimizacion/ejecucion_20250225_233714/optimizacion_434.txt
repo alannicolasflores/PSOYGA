@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 434 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 91.5% de uso
+Recurso 2: 54.6% de uso
+Recurso 3: 81.4% de uso
+Recurso 4: 94.0% de uso
+Recurso 7: 99.5% de uso
+Recurso 8: 89.5% de uso
+Recurso 10: 82.0% de uso
+Recurso 11: 58.7% de uso
+Recurso 13: 73.0% de uso

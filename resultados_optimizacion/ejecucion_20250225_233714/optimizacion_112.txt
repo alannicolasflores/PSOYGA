@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 112 ===
+
+Puntuación final: 0.78
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.9% de uso
+Recurso 3: 95.1% de uso
+Recurso 4: 91.2% de uso
+Recurso 5: 64.3% de uso
+Recurso 6: 63.3% de uso
+Recurso 7: 87.9% de uso
+Recurso 9: 97.8% de uso
+Recurso 10: 94.5% de uso
+Recurso 11: 82.1% de uso
+Recurso 13: 55.6% de uso

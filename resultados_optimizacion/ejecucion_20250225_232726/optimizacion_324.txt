@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 324 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.1% de uso
+Recurso 2: 92.1% de uso
+Recurso 3: 98.2% de uso
+Recurso 4: 78.0% de uso
+Recurso 5: 54.6% de uso
+Recurso 7: 86.7% de uso
+Recurso 8: 55.6% de uso
+Recurso 9: 69.4% de uso
+Recurso 10: 77.0% de uso
+Recurso 13: 89.4% de uso

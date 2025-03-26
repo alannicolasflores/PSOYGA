@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 8 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.7% de uso
+Recurso 3: 63.8% de uso
+Recurso 4: 62.1% de uso
+Recurso 5: 52.4% de uso
+Recurso 6: 58.8% de uso
+Recurso 7: 94.4% de uso
+Recurso 8: 60.9% de uso
+Recurso 9: 63.1% de uso
+Recurso 10: 99.8% de uso
+Recurso 11: 79.4% de uso
+Recurso 13: 74.6% de uso

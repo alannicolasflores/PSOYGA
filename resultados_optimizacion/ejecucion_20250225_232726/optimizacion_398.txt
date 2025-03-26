@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 398 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.6% de uso
+Recurso 2: 86.7% de uso
+Recurso 3: 78.1% de uso
+Recurso 4: 91.0% de uso
+Recurso 6: 67.4% de uso
+Recurso 7: 94.5% de uso
+Recurso 9: 91.4% de uso
+Recurso 10: 91.1% de uso
+Recurso 11: 60.3% de uso

@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 442 ===
+
+Puntuación final: 0.59
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 84.6% de uso
+Recurso 2: 77.3% de uso
+Recurso 3: 97.7% de uso
+Recurso 4: 99.3% de uso
+Recurso 5: 68.4% de uso
+Recurso 6: 84.2% de uso
+Recurso 8: 79.4% de uso
+Recurso 9: 92.6% de uso
+Recurso 10: 70.0% de uso
+Recurso 13: 65.7% de uso

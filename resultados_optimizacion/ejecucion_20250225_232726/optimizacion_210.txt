@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 210 ===
+
+Puntuación final: 0.78
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.2% de uso
+Recurso 3: 99.6% de uso
+Recurso 4: 96.4% de uso
+Recurso 6: 83.9% de uso
+Recurso 7: 93.5% de uso
+Recurso 8: 80.4% de uso
+Recurso 9: 74.6% de uso
+Recurso 10: 84.8% de uso
+Recurso 11: 86.1% de uso
+Recurso 13: 92.2% de uso

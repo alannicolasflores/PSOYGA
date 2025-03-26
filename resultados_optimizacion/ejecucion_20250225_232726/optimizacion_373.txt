@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 373 ===
+
+Puntuación final: 0.58
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.5% de uso
+Recurso 3: 93.1% de uso
+Recurso 5: 88.1% de uso
+Recurso 6: 57.5% de uso
+Recurso 7: 66.1% de uso
+Recurso 10: 90.6% de uso
+Recurso 13: 50.9% de uso

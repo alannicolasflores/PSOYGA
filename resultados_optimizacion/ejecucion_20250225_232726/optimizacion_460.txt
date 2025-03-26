@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 460 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 90.8% de uso
+Recurso 3: 65.6% de uso
+Recurso 4: 73.5% de uso
+Recurso 7: 93.6% de uso
+Recurso 8: 57.7% de uso
+Recurso 10: 99.1% de uso
+Recurso 13: 73.5% de uso

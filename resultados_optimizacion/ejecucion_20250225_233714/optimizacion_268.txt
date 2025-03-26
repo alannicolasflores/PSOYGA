@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 268 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.0% de uso
+Recurso 3: 72.3% de uso
+Recurso 4: 88.6% de uso
+Recurso 7: 50.8% de uso
+Recurso 8: 71.7% de uso
+Recurso 9: 50.2% de uso
+Recurso 10: 94.5% de uso
+Recurso 13: 56.3% de uso

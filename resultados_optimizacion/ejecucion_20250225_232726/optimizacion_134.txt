@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 134 ===
+
+Puntuación final: 0.59
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 84.8% de uso
+Recurso 3: 93.1% de uso
+Recurso 4: 60.7% de uso
+Recurso 7: 83.3% de uso
+Recurso 10: 84.2% de uso
+Recurso 11: 68.8% de uso
+Recurso 12: 51.3% de uso
+Recurso 13: 53.3% de uso

@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 417 ===
+
+Puntuación final: 0.80
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.4% de uso
+Recurso 3: 99.5% de uso
+Recurso 4: 88.0% de uso
+Recurso 7: 92.7% de uso
+Recurso 8: 81.2% de uso
+Recurso 9: 83.9% de uso
+Recurso 10: 98.3% de uso
+Recurso 13: 94.4% de uso

@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 47 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.5% de uso
+Recurso 2: 91.1% de uso
+Recurso 3: 79.5% de uso
+Recurso 4: 84.8% de uso
+Recurso 5: 71.3% de uso
+Recurso 6: 76.4% de uso
+Recurso 7: 91.0% de uso
+Recurso 9: 65.9% de uso
+Recurso 10: 52.6% de uso
+Recurso 11: 75.2% de uso
+Recurso 13: 72.1% de uso

@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 114 ===
+
+Puntuación final: 0.78
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 89.1% de uso
+Recurso 3: 91.8% de uso
+Recurso 4: 95.7% de uso
+Recurso 5: 98.9% de uso
+Recurso 7: 92.5% de uso
+Recurso 8: 66.7% de uso
+Recurso 10: 98.4% de uso
+Recurso 13: 58.9% de uso

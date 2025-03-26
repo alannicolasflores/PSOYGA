@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 234 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 77.9% de uso
+Recurso 2: 78.2% de uso
+Recurso 3: 82.7% de uso
+Recurso 4: 95.3% de uso
+Recurso 5: 74.3% de uso
+Recurso 6: 92.4% de uso
+Recurso 7: 95.8% de uso
+Recurso 9: 92.7% de uso
+Recurso 10: 87.6% de uso

@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 472 ===
+
+Puntuación final: 0.74
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 88.5% de uso
+Recurso 3: 94.3% de uso
+Recurso 4: 92.5% de uso
+Recurso 5: 86.8% de uso
+Recurso 6: 54.5% de uso
+Recurso 7: 93.6% de uso
+Recurso 9: 79.0% de uso
+Recurso 10: 72.4% de uso

@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 404 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.5% de uso
+Recurso 2: 81.7% de uso
+Recurso 3: 81.1% de uso
+Recurso 4: 95.2% de uso
+Recurso 5: 84.8% de uso
+Recurso 6: 62.8% de uso
+Recurso 7: 75.1% de uso
+Recurso 9: 66.4% de uso
+Recurso 10: 87.4% de uso
+Recurso 13: 91.5% de uso

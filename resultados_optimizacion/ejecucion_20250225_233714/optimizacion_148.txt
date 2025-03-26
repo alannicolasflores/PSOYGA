@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 148 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 80.0% de uso
+Recurso 2: 95.1% de uso
+Recurso 3: 99.8% de uso
+Recurso 4: 84.4% de uso
+Recurso 5: 95.5% de uso
+Recurso 6: 81.8% de uso
+Recurso 7: 92.3% de uso
+Recurso 8: 73.4% de uso
+Recurso 9: 85.4% de uso
+Recurso 10: 70.7% de uso
+Recurso 13: 91.6% de uso

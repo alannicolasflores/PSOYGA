@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 414 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 85.3% de uso
+Recurso 2: 74.9% de uso
+Recurso 3: 91.3% de uso
+Recurso 4: 74.9% de uso
+Recurso 5: 83.2% de uso
+Recurso 6: 83.6% de uso
+Recurso 7: 86.1% de uso
+Recurso 9: 58.6% de uso
+Recurso 10: 70.4% de uso
+Recurso 13: 99.2% de uso

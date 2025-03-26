@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 292 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 81.5% de uso
+Recurso 2: 76.6% de uso
+Recurso 3: 96.4% de uso
+Recurso 4: 94.8% de uso
+Recurso 5: 73.1% de uso
+Recurso 6: 53.9% de uso
+Recurso 7: 65.8% de uso
+Recurso 10: 74.7% de uso

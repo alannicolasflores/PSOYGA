@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 229 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 85.0% de uso
+Recurso 2: 89.1% de uso
+Recurso 3: 94.5% de uso
+Recurso 4: 98.8% de uso
+Recurso 6: 64.1% de uso
+Recurso 7: 84.4% de uso
+Recurso 8: 98.4% de uso
+Recurso 10: 92.3% de uso
+Recurso 11: 88.5% de uso
+Recurso 13: 63.3% de uso

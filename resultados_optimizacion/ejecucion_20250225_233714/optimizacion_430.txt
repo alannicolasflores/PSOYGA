@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 430 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 71.6% de uso
+Recurso 3: 74.7% de uso
+Recurso 4: 77.1% de uso
+Recurso 5: 68.9% de uso
+Recurso 6: 67.5% de uso
+Recurso 7: 96.5% de uso
+Recurso 9: 55.7% de uso
+Recurso 10: 75.1% de uso
+Recurso 11: 95.0% de uso
+Recurso 13: 86.4% de uso

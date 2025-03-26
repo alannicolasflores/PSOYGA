@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 29 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.2% de uso
+Recurso 3: 89.9% de uso
+Recurso 4: 98.0% de uso
+Recurso 7: 64.6% de uso
+Recurso 8: 83.8% de uso
+Recurso 10: 60.3% de uso
+Recurso 13: 52.1% de uso

@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 435 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.9% de uso
+Recurso 2: 76.9% de uso
+Recurso 3: 77.7% de uso
+Recurso 4: 91.9% de uso
+Recurso 5: 97.7% de uso
+Recurso 7: 97.7% de uso
+Recurso 10: 83.1% de uso
+Recurso 11: 56.1% de uso
+Recurso 13: 75.3% de uso

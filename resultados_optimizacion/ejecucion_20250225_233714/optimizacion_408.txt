@@ -1,0 +1,17 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 408 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.1% de uso
+Recurso 2: 73.2% de uso
+Recurso 3: 95.3% de uso
+Recurso 4: 73.6% de uso
+Recurso 5: 89.8% de uso
+Recurso 6: 79.0% de uso
+Recurso 7: 71.0% de uso
+Recurso 8: 59.3% de uso
+Recurso 9: 65.8% de uso
+Recurso 10: 96.8% de uso
+Recurso 11: 70.6% de uso
+Recurso 13: 52.6% de uso

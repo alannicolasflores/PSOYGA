@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 476 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 67.0% de uso
+Recurso 2: 80.0% de uso
+Recurso 3: 99.4% de uso
+Recurso 4: 96.8% de uso
+Recurso 5: 57.6% de uso
+Recurso 7: 79.0% de uso
+Recurso 8: 89.9% de uso
+Recurso 9: 85.0% de uso
+Recurso 10: 81.1% de uso
+Recurso 11: 93.7% de uso
+Recurso 13: 76.1% de uso

@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 291 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 58.9% de uso
+Recurso 3: 83.9% de uso
+Recurso 4: 98.9% de uso
+Recurso 6: 93.7% de uso
+Recurso 7: 91.9% de uso
+Recurso 9: 96.3% de uso
+Recurso 10: 96.3% de uso

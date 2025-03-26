@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 52 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.5% de uso
+Recurso 2: 93.3% de uso
+Recurso 3: 99.3% de uso
+Recurso 5: 59.4% de uso
+Recurso 6: 84.2% de uso
+Recurso 7: 97.5% de uso
+Recurso 9: 53.4% de uso
+Recurso 10: 99.6% de uso
+Recurso 11: 84.9% de uso
+Recurso 13: 84.1% de uso

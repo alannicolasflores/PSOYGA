@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 305 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.5% de uso
+Recurso 2: 92.7% de uso
+Recurso 3: 92.8% de uso
+Recurso 4: 87.8% de uso
+Recurso 5: 75.9% de uso
+Recurso 7: 62.1% de uso
+Recurso 8: 81.7% de uso
+Recurso 9: 68.7% de uso
+Recurso 10: 83.5% de uso

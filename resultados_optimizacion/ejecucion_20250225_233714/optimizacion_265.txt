@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 265 ===
+
+Puntuación final: 0.63
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 72.9% de uso
+Recurso 2: 59.3% de uso
+Recurso 3: 97.5% de uso
+Recurso 4: 58.7% de uso
+Recurso 5: 59.1% de uso
+Recurso 7: 95.7% de uso
+Recurso 10: 53.1% de uso

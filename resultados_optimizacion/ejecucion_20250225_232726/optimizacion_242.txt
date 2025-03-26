@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 242 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 85.8% de uso
+Recurso 2: 71.8% de uso
+Recurso 3: 82.9% de uso
+Recurso 4: 57.9% de uso
+Recurso 7: 99.8% de uso
+Recurso 8: 71.1% de uso
+Recurso 9: 92.9% de uso
+Recurso 10: 69.5% de uso
+Recurso 11: 64.6% de uso
+Recurso 13: 71.8% de uso

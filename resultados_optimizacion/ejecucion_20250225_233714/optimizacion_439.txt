@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 439 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 82.0% de uso
+Recurso 2: 88.4% de uso
+Recurso 3: 93.6% de uso
+Recurso 4: 93.4% de uso
+Recurso 5: 82.8% de uso
+Recurso 7: 80.8% de uso
+Recurso 8: 92.1% de uso
+Recurso 10: 72.5% de uso
+Recurso 11: 87.7% de uso
+Recurso 13: 61.4% de uso

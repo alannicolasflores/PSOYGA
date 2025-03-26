@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 387 ===
+
+Puntuación final: 0.64
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 72.6% de uso
+Recurso 3: 70.6% de uso
+Recurso 4: 98.4% de uso
+Recurso 5: 74.1% de uso
+Recurso 6: 58.8% de uso
+Recurso 7: 82.2% de uso
+Recurso 8: 51.3% de uso
+Recurso 10: 61.1% de uso
+Recurso 11: 65.9% de uso
+Recurso 13: 69.2% de uso

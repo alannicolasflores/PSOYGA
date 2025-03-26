@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 246 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 96.7% de uso
+Recurso 2: 98.1% de uso
+Recurso 3: 82.7% de uso
+Recurso 4: 50.8% de uso
+Recurso 7: 95.9% de uso
+Recurso 8: 90.3% de uso
+Recurso 10: 86.0% de uso

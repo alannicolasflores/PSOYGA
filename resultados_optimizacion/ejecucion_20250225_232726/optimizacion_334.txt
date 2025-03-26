@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 334 ===
+
+Puntuación final: 0.55
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 83.7% de uso
+Recurso 3: 91.8% de uso
+Recurso 4: 79.8% de uso
+Recurso 7: 60.1% de uso
+Recurso 10: 91.3% de uso
+Recurso 13: 77.1% de uso
+Recurso 15: 77.3% de uso

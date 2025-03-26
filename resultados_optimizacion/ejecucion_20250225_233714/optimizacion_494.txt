@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 494 ===
+
+Puntuación final: 0.60
+
+Ruta de aprendizaje recomendada:
+Recurso 3: 69.8% de uso
+Recurso 4: 99.3% de uso
+Recurso 5: 74.1% de uso
+Recurso 6: 83.3% de uso
+Recurso 7: 99.3% de uso
+Recurso 9: 65.7% de uso
+Recurso 10: 93.5% de uso
+Recurso 11: 59.8% de uso
+Recurso 13: 53.5% de uso

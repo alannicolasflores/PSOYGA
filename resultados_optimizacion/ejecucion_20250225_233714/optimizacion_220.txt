@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 220 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 64.9% de uso
+Recurso 2: 93.6% de uso
+Recurso 3: 78.8% de uso
+Recurso 4: 89.2% de uso
+Recurso 5: 98.5% de uso
+Recurso 6: 96.4% de uso
+Recurso 7: 98.3% de uso
+Recurso 8: 57.7% de uso
+Recurso 9: 74.4% de uso
+Recurso 10: 97.1% de uso
+Recurso 13: 71.4% de uso

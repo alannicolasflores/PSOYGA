@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 205 ===
+
+Puntuación final: 0.62
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 80.9% de uso
+Recurso 2: 87.1% de uso
+Recurso 3: 93.5% de uso
+Recurso 4: 81.5% de uso
+Recurso 7: 95.3% de uso
+Recurso 10: 75.5% de uso
+Recurso 15: 54.7% de uso

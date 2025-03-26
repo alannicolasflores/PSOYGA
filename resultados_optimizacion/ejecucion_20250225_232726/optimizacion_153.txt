@@ -1,0 +1,11 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 153 ===
+
+Puntuación final: 0.75
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 75.5% de uso
+Recurso 3: 83.1% de uso
+Recurso 4: 99.7% de uso
+Recurso 6: 62.2% de uso
+Recurso 7: 98.0% de uso
+Recurso 10: 91.2% de uso

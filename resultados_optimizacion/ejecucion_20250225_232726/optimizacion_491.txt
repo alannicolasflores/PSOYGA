@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 491 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 86.8% de uso
+Recurso 2: 72.1% de uso
+Recurso 3: 72.0% de uso
+Recurso 4: 81.2% de uso
+Recurso 6: 62.1% de uso
+Recurso 7: 70.7% de uso
+Recurso 8: 80.9% de uso
+Recurso 10: 86.8% de uso
+Recurso 11: 96.1% de uso

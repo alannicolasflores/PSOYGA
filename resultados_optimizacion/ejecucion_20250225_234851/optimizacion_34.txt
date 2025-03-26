@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 40 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 94.7% de uso
+Recurso 2: 65.9% de uso
+Recurso 3: 84.2% de uso
+Recurso 4: 91.8% de uso
+Recurso 5: 72.3% de uso
+Recurso 7: 97.1% de uso
+Recurso 8: 95.7% de uso
+Recurso 9: 73.3% de uso
+Recurso 10: 86.6% de uso
+Recurso 13: 65.3% de uso

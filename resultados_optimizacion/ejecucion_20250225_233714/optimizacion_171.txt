@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 171 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 76.1% de uso
+Recurso 3: 74.8% de uso
+Recurso 4: 85.3% de uso
+Recurso 7: 100.0% de uso
+Recurso 8: 91.4% de uso
+Recurso 9: 92.8% de uso
+Recurso 10: 82.9% de uso
+Recurso 11: 76.2% de uso
+Recurso 13: 51.0% de uso

@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 450 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 72.6% de uso
+Recurso 2: 52.8% de uso
+Recurso 3: 87.9% de uso
+Recurso 4: 69.1% de uso
+Recurso 5: 62.8% de uso
+Recurso 6: 80.1% de uso
+Recurso 7: 81.0% de uso
+Recurso 9: 77.3% de uso
+Recurso 10: 99.5% de uso
+Recurso 11: 78.9% de uso
+Recurso 13: 84.9% de uso

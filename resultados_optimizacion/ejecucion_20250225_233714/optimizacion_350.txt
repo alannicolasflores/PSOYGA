@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 350 ===
+
+Puntuación final: 0.59
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.0% de uso
+Recurso 3: 99.5% de uso
+Recurso 4: 82.0% de uso
+Recurso 5: 81.0% de uso
+Recurso 7: 85.9% de uso
+Recurso 10: 93.7% de uso
+Recurso 11: 73.7% de uso
+Recurso 15: 98.7% de uso

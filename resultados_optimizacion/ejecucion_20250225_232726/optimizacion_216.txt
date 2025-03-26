@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 216 ===
+
+Puntuación final: 0.74
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.0% de uso
+Recurso 3: 93.0% de uso
+Recurso 4: 85.5% de uso
+Recurso 5: 66.0% de uso
+Recurso 6: 57.7% de uso
+Recurso 7: 76.9% de uso
+Recurso 9: 54.1% de uso
+Recurso 10: 93.0% de uso
+Recurso 11: 76.8% de uso
+Recurso 13: 61.4% de uso

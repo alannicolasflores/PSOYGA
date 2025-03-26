@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 260 ===
+
+Puntuación final: 0.73
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.3% de uso
+Recurso 3: 91.3% de uso
+Recurso 4: 90.7% de uso
+Recurso 6: 64.1% de uso
+Recurso 7: 79.4% de uso
+Recurso 8: 76.3% de uso
+Recurso 10: 80.9% de uso
+Recurso 11: 98.2% de uso

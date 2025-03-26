@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 111 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 70.6% de uso
+Recurso 3: 97.1% de uso
+Recurso 4: 70.3% de uso
+Recurso 6: 63.1% de uso
+Recurso 7: 76.7% de uso
+Recurso 9: 60.5% de uso
+Recurso 10: 94.3% de uso

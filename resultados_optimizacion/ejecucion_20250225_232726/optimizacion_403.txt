@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 403 ===
+
+Puntuación final: 0.71
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 97.2% de uso
+Recurso 3: 71.2% de uso
+Recurso 4: 97.4% de uso
+Recurso 5: 61.1% de uso
+Recurso 7: 81.3% de uso
+Recurso 8: 83.0% de uso
+Recurso 9: 59.3% de uso
+Recurso 10: 77.7% de uso
+Recurso 11: 54.0% de uso
+Recurso 13: 79.8% de uso

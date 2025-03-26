@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 105 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 86.4% de uso
+Recurso 3: 94.7% de uso
+Recurso 4: 84.9% de uso
+Recurso 5: 93.4% de uso
+Recurso 6: 97.3% de uso
+Recurso 7: 56.2% de uso
+Recurso 10: 87.0% de uso
+Recurso 13: 61.5% de uso

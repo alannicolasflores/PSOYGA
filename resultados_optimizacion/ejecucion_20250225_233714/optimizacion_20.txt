@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 20 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 74.6% de uso
+Recurso 2: 67.8% de uso
+Recurso 3: 97.8% de uso
+Recurso 4: 96.1% de uso
+Recurso 5: 92.4% de uso
+Recurso 6: 62.6% de uso
+Recurso 7: 95.9% de uso
+Recurso 9: 53.1% de uso
+Recurso 10: 99.4% de uso
+Recurso 12: 51.2% de uso

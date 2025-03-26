@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 480 ===
+
+Puntuación final: 0.61
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 56.6% de uso
+Recurso 2: 85.8% de uso
+Recurso 3: 63.9% de uso
+Recurso 4: 87.2% de uso
+Recurso 5: 84.8% de uso
+Recurso 6: 73.0% de uso
+Recurso 7: 95.0% de uso
+Recurso 8: 77.1% de uso
+Recurso 10: 61.0% de uso

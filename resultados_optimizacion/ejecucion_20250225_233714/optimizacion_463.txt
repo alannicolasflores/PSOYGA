@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 463 ===
+
+Puntuación final: 0.66
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.6% de uso
+Recurso 3: 52.3% de uso
+Recurso 4: 93.9% de uso
+Recurso 5: 82.1% de uso
+Recurso 6: 91.7% de uso
+Recurso 7: 58.7% de uso
+Recurso 10: 98.7% de uso
+Recurso 11: 72.6% de uso

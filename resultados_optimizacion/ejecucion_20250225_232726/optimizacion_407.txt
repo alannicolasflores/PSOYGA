@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 407 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.6% de uso
+Recurso 3: 88.5% de uso
+Recurso 4: 50.2% de uso
+Recurso 5: 73.0% de uso
+Recurso 7: 99.7% de uso
+Recurso 9: 73.2% de uso
+Recurso 10: 93.7% de uso
+Recurso 11: 84.1% de uso

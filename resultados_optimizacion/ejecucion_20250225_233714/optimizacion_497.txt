@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 497 ===
+
+Puntuación final: 0.74
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 99.8% de uso
+Recurso 2: 92.0% de uso
+Recurso 3: 99.7% de uso
+Recurso 4: 71.9% de uso
+Recurso 6: 71.7% de uso
+Recurso 7: 81.0% de uso
+Recurso 8: 64.1% de uso
+Recurso 10: 91.6% de uso
+Recurso 11: 83.6% de uso
+Recurso 13: 98.7% de uso

@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 55 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 72.9% de uso
+Recurso 2: 50.6% de uso
+Recurso 3: 89.3% de uso
+Recurso 4: 93.6% de uso
+Recurso 6: 55.2% de uso
+Recurso 7: 76.2% de uso
+Recurso 8: 56.9% de uso
+Recurso 10: 82.1% de uso

@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 173 ===
+
+Puntuación final: 0.76
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 89.3% de uso
+Recurso 3: 89.4% de uso
+Recurso 4: 95.3% de uso
+Recurso 6: 63.6% de uso
+Recurso 7: 93.3% de uso
+Recurso 9: 92.0% de uso
+Recurso 10: 91.5% de uso
+Recurso 11: 82.1% de uso

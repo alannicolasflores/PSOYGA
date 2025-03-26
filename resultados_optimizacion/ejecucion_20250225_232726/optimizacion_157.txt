@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 157 ===
+
+Puntuación final: 0.72
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 76.5% de uso
+Recurso 2: 74.0% de uso
+Recurso 3: 92.1% de uso
+Recurso 4: 93.4% de uso
+Recurso 5: 56.8% de uso
+Recurso 6: 69.5% de uso
+Recurso 7: 80.6% de uso
+Recurso 9: 71.7% de uso
+Recurso 10: 89.4% de uso

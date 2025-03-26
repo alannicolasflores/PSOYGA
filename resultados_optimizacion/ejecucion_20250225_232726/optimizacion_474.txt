@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 474 ===
+
+Puntuación final: 0.68
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 52.4% de uso
+Recurso 3: 84.5% de uso
+Recurso 4: 94.7% de uso
+Recurso 5: 97.9% de uso
+Recurso 7: 81.3% de uso
+Recurso 8: 59.9% de uso
+Recurso 10: 92.5% de uso
+Recurso 11: 90.1% de uso
+Recurso 13: 82.9% de uso

@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 361 ===
+
+Puntuación final: 0.64
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 55.3% de uso
+Recurso 2: 68.7% de uso
+Recurso 3: 76.1% de uso
+Recurso 4: 82.6% de uso
+Recurso 5: 90.7% de uso
+Recurso 6: 98.3% de uso
+Recurso 7: 94.9% de uso
+Recurso 8: 61.5% de uso
+Recurso 10: 77.5% de uso

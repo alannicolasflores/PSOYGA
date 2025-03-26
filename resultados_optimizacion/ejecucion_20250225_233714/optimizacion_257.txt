@@ -1,0 +1,15 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 257 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.6% de uso
+Recurso 2: 61.8% de uso
+Recurso 3: 99.9% de uso
+Recurso 4: 97.3% de uso
+Recurso 5: 62.0% de uso
+Recurso 7: 70.7% de uso
+Recurso 8: 63.6% de uso
+Recurso 9: 74.6% de uso
+Recurso 10: 94.7% de uso
+Recurso 11: 96.5% de uso

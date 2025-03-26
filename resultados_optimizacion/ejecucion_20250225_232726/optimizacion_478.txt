@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 478 ===
+
+Puntuación final: 0.67
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 87.0% de uso
+Recurso 3: 77.6% de uso
+Recurso 4: 84.3% de uso
+Recurso 7: 95.3% de uso
+Recurso 9: 92.0% de uso
+Recurso 10: 59.1% de uso
+Recurso 11: 91.1% de uso

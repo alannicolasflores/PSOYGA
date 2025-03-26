@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 465 ===
+
+Puntuación final: 0.61
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 61.4% de uso
+Recurso 3: 92.0% de uso
+Recurso 4: 55.0% de uso
+Recurso 6: 51.6% de uso
+Recurso 7: 70.0% de uso
+Recurso 9: 93.6% de uso
+Recurso 10: 87.4% de uso
+Recurso 11: 87.9% de uso
+Recurso 13: 71.0% de uso

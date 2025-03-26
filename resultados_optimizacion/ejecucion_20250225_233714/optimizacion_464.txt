@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 464 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 77.3% de uso
+Recurso 2: 73.4% de uso
+Recurso 3: 99.0% de uso
+Recurso 4: 90.4% de uso
+Recurso 5: 95.5% de uso
+Recurso 6: 88.3% de uso
+Recurso 7: 98.4% de uso
+Recurso 8: 62.1% de uso
+Recurso 9: 79.4% de uso
+Recurso 10: 99.0% de uso
+Recurso 11: 93.7% de uso

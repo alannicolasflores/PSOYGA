@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 313 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 93.8% de uso
+Recurso 2: 99.0% de uso
+Recurso 3: 83.6% de uso
+Recurso 4: 99.0% de uso
+Recurso 5: 82.8% de uso
+Recurso 7: 92.0% de uso
+Recurso 8: 99.2% de uso
+Recurso 9: 80.4% de uso
+Recurso 10: 94.4% de uso
+Recurso 11: 67.9% de uso
+Recurso 13: 95.9% de uso

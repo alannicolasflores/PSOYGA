@@ -1,0 +1,16 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 412 ===
+
+Puntuación final: 0.79
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 95.7% de uso
+Recurso 2: 89.6% de uso
+Recurso 3: 97.8% de uso
+Recurso 4: 95.2% de uso
+Recurso 6: 95.3% de uso
+Recurso 7: 90.2% de uso
+Recurso 8: 92.4% de uso
+Recurso 9: 51.8% de uso
+Recurso 10: 97.4% de uso
+Recurso 11: 84.2% de uso
+Recurso 13: 56.7% de uso

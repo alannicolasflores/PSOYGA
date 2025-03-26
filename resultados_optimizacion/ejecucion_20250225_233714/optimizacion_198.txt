@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 198 ===
+
+Puntuación final: 0.77
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 95.1% de uso
+Recurso 3: 80.3% de uso
+Recurso 4: 97.7% de uso
+Recurso 7: 98.2% de uso
+Recurso 8: 84.4% de uso
+Recurso 9: 97.8% de uso
+Recurso 10: 92.2% de uso
+Recurso 11: 59.2% de uso
+Recurso 13: 96.9% de uso

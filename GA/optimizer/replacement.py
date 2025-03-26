@@ -1,4 +1,4 @@
-from optimizer.population import binary_to_decimal
+from .population import binary_to_decimal
 
 def replace_population(old_population, new_population, fitness, obj_func, bounds, bit_length=10, elitism=True):
     """

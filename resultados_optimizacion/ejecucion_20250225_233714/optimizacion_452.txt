@@ -1,0 +1,12 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 452 ===
+
+Puntuación final: 0.70
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 98.8% de uso
+Recurso 3: 77.0% de uso
+Recurso 4: 95.0% de uso
+Recurso 7: 59.8% de uso
+Recurso 8: 95.7% de uso
+Recurso 9: 54.7% de uso
+Recurso 10: 90.9% de uso

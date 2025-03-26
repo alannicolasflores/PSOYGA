@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 456 ===
+
+Puntuación final: 0.65
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 89.4% de uso
+Recurso 2: 85.4% de uso
+Recurso 3: 51.8% de uso
+Recurso 4: 97.0% de uso
+Recurso 5: 84.4% de uso
+Recurso 7: 88.4% de uso
+Recurso 9: 83.3% de uso
+Recurso 10: 66.3% de uso

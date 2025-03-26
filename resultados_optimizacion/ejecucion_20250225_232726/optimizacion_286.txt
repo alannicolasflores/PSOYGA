@@ -1,0 +1,14 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 286 ===
+
+Puntuación final: 0.69
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 92.2% de uso
+Recurso 3: 60.7% de uso
+Recurso 4: 98.4% de uso
+Recurso 6: 73.3% de uso
+Recurso 7: 87.5% de uso
+Recurso 9: 50.2% de uso
+Recurso 10: 72.2% de uso
+Recurso 11: 84.7% de uso
+Recurso 13: 92.5% de uso

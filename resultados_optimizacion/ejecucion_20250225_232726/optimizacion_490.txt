@@ -1,0 +1,13 @@
+=== RESULTADO DE LA OPTIMIZACIÓN 490 ===
+
+Puntuación final: 0.64
+
+Ruta de aprendizaje recomendada:
+Recurso 1: 64.7% de uso
+Recurso 2: 55.0% de uso
+Recurso 3: 83.3% de uso
+Recurso 4: 51.4% de uso
+Recurso 5: 67.6% de uso
+Recurso 7: 98.2% de uso
+Recurso 9: 69.5% de uso
+Recurso 10: 86.0% de uso
