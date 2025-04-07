@@ -1,0 +1,55 @@
+POST http://localhost:7071/api/optimize_resources
+Content-Type: application/json
+Accept: application/json
+
+{
+    "alumno": {
+        "id": 1,
+        "nombre": "Alan Joel",
+        "tipos_aprendizaje": {
+            "visual": 40,
+            "auditivo": 30,
+            "lectura_escritura": 20,
+            "kinestesico": 10
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Introducción",
+                    "nivel": 2
+                }
+            ]
+        }
+    },
+    "unidad_aprendizaje": {
+        "id": 1,
+        "nombre": "UA Metodologías",
+        "modulos": [
+            {
+                "id": 1,
+                "temas": [
+                    {
+                        "id": 1,
+                        "recursos": [
+                            {
+                                "id": 1,
+                                "tipo": "video",
+                                "nombre": "Video test",
+                                "url": "https://example.com",
+                                "tipos_aprendizaje": {
+                                    "visual": 50,
+                                    "auditivo": 30,
+                                    "lectura_escritura": 10,
+                                    "kinestesico": 10
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "algoritmo": "GA_V2"
+}

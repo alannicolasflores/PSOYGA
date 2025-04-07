@@ -18,7 +18,6 @@ def optimize_resources_endpoint(req: func.HttpRequest) -> func.HttpResponse:
         alumno = req_body.get("alumno")
         unidad_aprendizaje = req_body.get("unidad_aprendizaje")
         algoritmo = req_body.get("algoritmo", "GA_V2")
-
         if not alumno or not unidad_aprendizaje:
             return func.HttpResponse("Faltan datos de alumno o unidad de aprendizaje.", status_code=400)
 

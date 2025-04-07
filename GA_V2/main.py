@@ -16,6 +16,20 @@ def run(alumno=None, unidad_aprendizaje=None):
     datos_estudiante = alumno or load_data(os.path.join(DATA_DIR, 'alumno.json'))
     datos_materiales = unidad_aprendizaje or load_data(os.path.join(DATA_DIR, 'unidad_aprendizaje.json'))
 
+    # 🛠️ Homologar estructura si vienen directo desde la API
+    if 'modulos' in datos_materiales:
+        datos_materiales = {
+            'unidad_aprendizaje': datos_materiales
+        }
+
+    if 'tipos_aprendizaje' in datos_estudiante:
+        datos_estudiante = {
+            'alumno': datos_estudiante
+        }
+
+    print("Estructura de datos_materiales:")
+    print(json.dumps(datos_materiales, indent=2))
+
     longitud_individuo = sum(
         len(tema['recursos'])
         for modulo in datos_materiales['unidad_aprendizaje']['modulos']
