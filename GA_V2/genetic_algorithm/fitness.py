@@ -9,7 +9,6 @@ def funcion_aptitud(individuo: List[int], datos_estudiante: dict, datos_material
 
     puntaje_evaluacion = 0
     puntaje_estilos = 0
-    
     num_selected = sum(individuo)
     tema_index = 0
     
@@ -28,7 +27,7 @@ def funcion_aptitud(individuo: List[int], datos_estudiante: dict, datos_material
                     # Cálculo de S_estilos
                     estilos_recurso = recurso.get('tipos_aprendizaje', {})
                     estilos_ordenados = sorted(estilos_recurso.items(), key=lambda x: x[1], reverse=True)
-                    estilos_mas_altos = [estilo for estilo, valor in estilos_ordenados[:2]]
+                    estilos_mas_altos = [estilo for estilo, valor in estilos_ordenados[:4]]
                     estilos_coincidentes = sum(1 for estilo in estilos_mas_altos if estilo in estilos_aprendizaje)
                     estilos_preferidos = len(estilos_aprendizaje)
                     puntaje_estilos += estilos_coincidentes / estilos_preferidos if estilos_preferidos > 0 else 0
@@ -42,7 +41,7 @@ def funcion_aptitud(individuo: List[int], datos_estudiante: dict, datos_material
         
     #print(f'Debug del puntaje de estilos despues del promedio: {puntaje_estilos:.2f}')
     # Penalización para evitar selección excesiva de materiales
-    penalty = 0.1 * num_selected
+    penalty = 0.18 * num_selected
     max_resources = 24
     if num_selected > max_resources:
         penalty += 10  

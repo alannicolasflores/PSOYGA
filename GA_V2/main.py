@@ -1,13 +1,11 @@
-import os
 import json
-from .genetic_algorithm import (
-    AlgoritmoGenetico,
-    funcion_aptitud,
-    mutacion_binaria,
-    representacionBinaria_dosPuntos,
-    seleccion_torneo,
-    load_data
-)
+import os
+
+from .genetic_algorithm import (AlgoritmoGenetico, funcion_aptitud, load_data,
+                                mutacion_binaria,
+                                representacionBinaria_dosPuntos,
+                                seleccion_torneo)
+
 
 def run(alumno=None, unidad_aprendizaje=None):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -63,13 +61,12 @@ def run(alumno=None, unidad_aprendizaje=None):
             for recurso in tema['recursos']:
                 if tema_index < len(mejor_solucion) and mejor_solucion[tema_index] == 1:
                     materiales_tema.append({
-                        "titulo": recurso['nombre'],
-                        "tipo": recurso['tipo']
+                        "nombre": recurso['nombre'],
+                        "tipo": recurso['tipo'],
                     })
                 tema_index += 1
             if materiales_tema:
                 asignacion.append({
-                    "tema": tema['nombre'],
                     "materiales": materiales_tema
                 })
 
