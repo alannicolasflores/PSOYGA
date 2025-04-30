@@ -38,9 +38,14 @@ def educational_objective(adequacy, difficulty, knowledge, w_a, w_d):
     Retorna:
     - float: Puntuación del recurso educativo.
     """
-    difficulty_match = 1 - (abs(difficulty - knowledge) / 2)  # Normalize to 0-1
-    return (w_a * adequacy + w_d * difficulty_match) / (w_a + w_d)  # Normalized score
-    return w_a * adequacy - w_d * abs(difficulty - knowledge)
+    # Normalizar la diferencia de dificultad a un rango de 0-1
+    difficulty_match = 1 - (abs(difficulty - knowledge) / 2)
+    
+    # Calcular la puntuación combinando adecuación y ajuste de dificultad
+    score = (w_a * adequacy) + (w_d * difficulty_match)
+    
+    # Asegurar que la puntuación esté en el rango 0-1
+    return max(0, min(1, score))
 
 def calculate_topic_score(resources_scores):
     """

@@ -152,4 +152,7 @@ def optimize_resources(student_knowledge, student_styles, resources):
         if v > 50:
             print(f"  Recurso {i+1}: {v:.1f}% de uso")
 
-    return best_solution, best_historical_fitness
+    # Convertir la mejor solución a formato binario (0 o 1)
+    binary_solution = [1 if x > 50 else 0 for x in best_solution]
+    
+    return binary_solution, best_historical_fitness

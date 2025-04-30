@@ -24,14 +24,30 @@ def run(alumno=None, unidad_aprendizaje=None):
             for recurso in tema.get("recursos", []):
                 if tema_index < len(best_solution) and best_solution[tema_index] == 1:
                     materiales_tema.append({
-                        "titulo": recurso.get("nombre"),
-                        "tipo": recurso.get("tipo")
+                        "id": int(recurso.get("id", 0)),
+                        "tipo": str(recurso.get("tipo", "")),
+                        "nombre": str(recurso.get("nombre", "")),
+                        "url": str(recurso.get("url", "")),
+                        "tipos_aprendizaje": {
+                            "visual": int(recurso.get("tipos_aprendizaje", {}).get("visual", 0)),
+                            "auditivo": int(recurso.get("tipos_aprendizaje", {}).get("auditivo", 0)),
+                            "lectura_escritura": int(recurso.get("tipos_aprendizaje", {}).get("lectura_escritura", 0)),
+                            "kinestesico": int(recurso.get("tipos_aprendizaje", {}).get("kinestesico", 0))
+                        },
+                        "dificultad": int(recurso.get("dificultad", 0))
                     })
                 tema_index += 1
             if materiales_tema:
                 asignacion.append({
-                    "tema": tema.get("nombre"),
+                    "id_tema": int(tema.get("id", 0)),
+                    "nombre_tema": str(tema.get("nombre", "")),
                     "materiales": materiales_tema
                 })
 
-    return best_solution, best_score, asignacion
+    resultado = {
+        "mejor_solucion": [int(x) for x in best_solution],
+        "puntaje": float(best_score),
+        "asignacion": asignacion
+    }
+
+    return resultado

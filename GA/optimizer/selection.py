@@ -12,6 +12,9 @@ def tournament_selection(population, fitness, k=3):
     Retorna:
     - list: Lista con dos individuos seleccionados.
     """
+    # Ajustar k si la población es pequeña
+    k = min(k, len(population))
+    
     selected = []
     for _ in range(2):  # Se seleccionan dos individuos
         participants = random.sample(list(zip(population, fitness)), k)  # Se escogen k participantes aleatoriamente

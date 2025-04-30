@@ -22,25 +22,52 @@ def optimize_resources_endpoint(req: func.HttpRequest) -> func.HttpResponse:
             return func.HttpResponse("Faltan datos de alumno o unidad de aprendizaje.", status_code=400)
 
         if algoritmo == "GA_V1":
-            best_solution, best_score, asignacion = run_ga_optimization(
+            resultado = run_ga_optimization(
                 alumno=alumno,
                 unidad_aprendizaje=unidad_aprendizaje
             )
         elif algoritmo == "GA_V2":
-            best_solution, best_score, asignacion = run_ga_v2_optimization(
+            resultado = run_ga_v2_optimization(
                 alumno=alumno,
                 unidad_aprendizaje=unidad_aprendizaje
             )
         else:
             return func.HttpResponse(f"Algoritmo '{algoritmo}' no soportado.", status_code=400)
 
-        resultado = {
-            "mejor_solucion": best_solution,
-            "puntaje": best_score,
-            "asignacion": asignacion
+        # Asegurarse de que todos los valores sean serializables
+        resultado_serializable = {
+            "mejor_solucion": [int(x) for x in resultado["mejor_solucion"]],
+            "puntaje": float(resultado["puntaje"]),
+            "asignacion": [
+                {
+                    "id_tema": int(tema["id_tema"]),
+                    "nombre_tema": str(tema["nombre_tema"]),
+                    "materiales": [
+                        {
+                            "id": int(mat["id"]),
+                            "tipo": str(mat["tipo"]),
+                            "nombre": str(mat["nombre"]),
+                            "url": str(mat["url"]),
+                            "tipos_aprendizaje": {
+                                "visual": int(mat["tipos_aprendizaje"]["visual"]),
+                                "auditivo": int(mat["tipos_aprendizaje"]["auditivo"]),
+                                "lectura_escritura": int(mat["tipos_aprendizaje"]["lectura_escritura"]),
+                                "kinestesico": int(mat["tipos_aprendizaje"]["kinestesico"])
+                            },
+                            "dificultad": int(mat["dificultad"])
+                        }
+                        for mat in tema["materiales"]
+                    ]
+                }
+                for tema in resultado["asignacion"]
+            ]
         }
 
-        return func.HttpResponse(json.dumps(resultado, indent=4), status_code=200, mimetype="application/json")
+        return func.HttpResponse(
+            json.dumps(resultado_serializable, indent=4, ensure_ascii=False),
+            status_code=200,
+            mimetype="application/json"
+        )
 
     except Exception as e:
         logging.error(f"Error general: {str(e)}")

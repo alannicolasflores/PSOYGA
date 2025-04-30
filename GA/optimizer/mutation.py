@@ -12,9 +12,17 @@ def mutate(individual, mutation_rate):
     - str: Nueva cadena binaria después de aplicar la mutación.
     """
     individual = list(individual)  # Convertir la cadena en lista para modificar los bits
+    
+    # Para cromosomas de longitud 1, aplicar mutación con la probabilidad normal
+    if len(individual) == 1:
+        if random.random() < mutation_rate:
+            individual[0] = '0' if individual[0] == '1' else '1'
+        return "".join(individual)
+    
+    # Para cromosomas más largos, aplicar la mutación normal
     for i in range(len(individual)):
-        if random.random() < mutation_rate:  # Aplicar mutación con la probabilidad dada
-            individual[i] = '0' if individual[i] == '1' else '1'  # Invertir el bit
+        if random.random() < mutation_rate:
+            individual[i] = '0' if individual[i] == '1' else '1'
     return "".join(individual)
 
 # Ejemplo de ejecución:
