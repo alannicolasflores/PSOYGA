@@ -34,6 +34,9 @@ def run(alumno=None, unidad_aprendizaje=None):
         for tema in modulo['temas']
     )
 
+    if longitud_individuo == 0:
+        raise ValueError("No hay recursos disponibles para optimizar")
+
     algoritmo_genetico = AlgoritmoGenetico(
         funcion_mutacion=mutacion_binaria,
         funcion_cruza=representacionBinaria_dosPuntos,
@@ -61,13 +64,41 @@ def run(alumno=None, unidad_aprendizaje=None):
             for recurso in tema['recursos']:
                 if tema_index < len(mejor_solucion) and mejor_solucion[tema_index] == 1:
                     materiales_tema.append({
-                        "nombre": recurso['nombre'],
-                        "tipo": recurso['tipo'],
+                        "id": int(recurso.get("id", 0)),
+                        "tipo": str(recurso.get("tipo", "")),
+                        "nombre": str(recurso.get("nombre", "")),
+                        "url": str(recurso.get("url", "")),
+                        "tipos_aprendizaje": {
+                            "visual": int(recurso.get("tipos_aprendizaje", {}).get("visual", 0)),
+                            "auditivo": int(recurso.get("tipos_aprendizaje", {}).get("auditivo", 0)),
+                            "lectura_escritura": int(recurso.get("tipos_aprendizaje", {}).get("lectura_escritura", 0)),
+                            "kinestesico": int(recurso.get("tipos_aprendizaje", {}).get("kinestesico", 0))
+                        },
+                        "dificultad": int(recurso.get("dificultad", 0))
                     })
                 tema_index += 1
             if materiales_tema:
+                # Obtener el nombre del tema del test inicial si está disponible
+                nombre_tema = ""
+                for tema_test in datos_estudiante.get("alumno", {}).get("test_inicial", {}).get("temas", []):
+                    if tema_test.get("id_tema") == tema.get("id"):
+                        nombre_tema = tema_test.get("nombre_tema", "")
+                        break
+                
+                # Si no se encontró en el test inicial, usar el nombre del tema de la unidad
+                if not nombre_tema:
+                    nombre_tema = tema.get("nombre", "")
+                
                 asignacion.append({
+                    "id_tema": int(tema.get("id", 0)),
+                    "nombre_tema": str(nombre_tema),
                     "materiales": materiales_tema
                 })
 
-    return mejor_solucion, mejor_aptitud, asignacion
+    resultado = {
+        "mejor_solucion": [int(x) for x in mejor_solucion],
+        "puntaje": float(mejor_aptitud),
+        "asignacion": asignacion
+    }
+
+    return resultado

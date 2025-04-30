@@ -2,23 +2,30 @@ import random
 from typing import List
 
 
-def generar_poblacion(size: int, datos_materiales: dict) -> List[List[int]]:
+def generar_poblacion(tamano_poblacion: int, datos_materiales: dict) -> List[List[int]]:
     """
-    Genera una población inicial con individuos representados por listas de `0s` y `1s`.
-    """
-    tam_cromosoma = sum(len(tema['recursos']) for modulo in datos_materiales['unidad_aprendizaje']['modulos'] for tema in modulo['temas'])
-    poblacion = []
+    Genera una población inicial de individuos binarios.
     
-    for _ in range(size):
-        individuo = [0] * tam_cromosoma  #Crea una lista plana
-        select_indices = random.sample(range(tam_cromosoma), min(5, tam_cromosoma))  # Garantiza selección de al menos 5 materiales
-        for idx in select_indices:
-            individuo[idx] = 1
+    Args:
+        tamano_poblacion (int): Tamaño de la población.
+        datos_materiales (dict): Datos de los materiales educativos.
+    
+    Returns:
+        List[List[int]]: Población inicial de individuos.
+    """
+    longitud_individuo = sum(
+        len(tema['recursos'])
+        for modulo in datos_materiales['unidad_aprendizaje']['modulos']
+        for tema in modulo['temas']
+    )
+    
+    # Si solo hay un recurso, generar una población con todos los individuos seleccionando ese recurso
+    if longitud_individuo == 1:
+        return [[1] for _ in range(tamano_poblacion)]
+    
+    # Para más de un recurso, generar población aleatoria
+    poblacion = []
+    for _ in range(tamano_poblacion):
+        individuo = [random.randint(0, 1) for _ in range(longitud_individuo)]
         poblacion.append(individuo)
-
-        #Depuración: Asegurar que `individuo` es una lista plana de `0s` y `1s`
-        if isinstance(individuo[0], list):
-            print(f"Error en generación de población: Individuo inválido {individuo}")
-            raise ValueError(f"Individuo inválido en generación: {individuo}")
-
     return poblacion

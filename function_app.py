@@ -63,10 +63,21 @@ def optimize_resources_endpoint(req: func.HttpRequest) -> func.HttpResponse:
             ]
         }
 
+        # Convertir a JSON con formato legible
+        response_json = json.dumps(resultado_serializable, indent=4, ensure_ascii=False)
+        
+        # Agregar encabezados para mejor visualización en PowerShell
+        headers = {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+            "Access-Control-Allow-Methods": "POST",
+            "Access-Control-Allow-Headers": "Content-Type"
+        }
+
         return func.HttpResponse(
-            json.dumps(resultado_serializable, indent=4, ensure_ascii=False),
+            response_json,
             status_code=200,
-            mimetype="application/json"
+            headers=headers
         )
 
     except Exception as e:

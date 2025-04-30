@@ -12,8 +12,18 @@
             "temas": [
                 {
                     "id_tema": 1,
-                    "nombre_tema": "Introducción",
+                    "nombre_tema": "Introducción a Metodologías",
                     "nivel": 2
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Metodologías Ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Scrum",
+                    "nivel": 0
                 }
             ]
         }
@@ -31,8 +41,8 @@
                             {
                                 "id": 1,
                                 "tipo": "video",
-                                "nombre": "Video test",
-                                "url": "https://example.com",
+                                "nombre": "Introducción a Metodologías",
+                                "url": "https://example.com/video1",
                                 "tipos_aprendizaje": {
                                     "visual": 50,
                                     "auditivo": 30,
@@ -40,6 +50,94 @@
                                     "kinestesico": 10
                                 },
                                 "dificultad": 1
+                            },
+                            {
+                                "id": 2,
+                                "tipo": "documento",
+                                "nombre": "Guía de Metodologías",
+                                "url": "https://example.com/doc1",
+                                "tipos_aprendizaje": {
+                                    "visual": 20,
+                                    "auditivo": 10,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 10
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "recursos": [
+                            {
+                                "id": 3,
+                                "tipo": "video",
+                                "nombre": "Fundamentos de Metodologías Ágiles",
+                                "url": "https://example.com/video2",
+                                "tipos_aprendizaje": {
+                                    "visual": 40,
+                                    "auditivo": 40,
+                                    "lectura_escritura": 10,
+                                    "kinestesico": 10
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 4,
+                                "tipo": "ejercicio",
+                                "nombre": "Práctica Ágil",
+                                "url": "https://example.com/ejercicio1",
+                                "tipos_aprendizaje": {
+                                    "visual": 20,
+                                    "auditivo": 10,
+                                    "lectura_escritura": 20,
+                                    "kinestesico": 50
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "recursos": [
+                            {
+                                "id": 5,
+                                "tipo": "video",
+                                "nombre": "Scrum en Profundidad",
+                                "url": "https://example.com/video3",
+                                "tipos_aprendizaje": {
+                                    "visual": 45,
+                                    "auditivo": 35,
+                                    "lectura_escritura": 10,
+                                    "kinestesico": 10
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 6,
+                                "tipo": "simulador",
+                                "nombre": "Simulador de Scrum",
+                                "url": "https://example.com/simulador1",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 20,
+                                    "lectura_escritura": 20,
+                                    "kinestesico": 30
+                                },
+                                "dificultad": 4
+                            },
+                            {
+                                "id": 7,
+                                "tipo": "documento",
+                                "nombre": "Guía de Scrum",
+                                "url": "https://example.com/doc2",
+                                "tipos_aprendizaje": {
+                                    "visual": 20,
+                                    "auditivo": 10,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 10
+                                },
+                                "dificultad": 2
                             }
                         ]
                     }
@@ -47,5 +145,5 @@
             }
         ]
     },
-    "algoritmo": "GA_V1"
-} 
+    "algoritmo": "GA_V2"
+}

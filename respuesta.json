@@ -1,0 +1,110 @@
+{
+  "mejor_solucion": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "puntaje": 1.2438553274682307,
+  "asignacion": [
+    {
+      "id_tema": 1,
+      "nombre_tema": "Introducción a Metodologías",
+      "materiales": [
+        {
+          "id": 1,
+          "tipo": "video",
+          "nombre": "Introducción a Metodologías",
+          "url": "https://example.com/video1",
+          "tipos_aprendizaje": {
+            "visual": 50,
+            "auditivo": 30,
+            "lectura_escritura": 10,
+            "kinestesico": 10
+          },
+          "dificultad": 1
+        },
+        {
+          "id": 2,
+          "tipo": "documento",
+          "nombre": "Guía de Metodologías",
+          "url": "https://example.com/doc1",
+          "tipos_aprendizaje": {
+            "visual": 20,
+            "auditivo": 10,
+            "lectura_escritura": 60,
+            "kinestesico": 10
+          },
+          "dificultad": 2
+        }
+      ]
+    },
+    {
+      "id_tema": 2,
+      "nombre_tema": "Metodologías Ágiles",
+      "materiales": [
+        {
+          "id": 3,
+          "tipo": "video",
+          "nombre": "Fundamentos de Metodologías Ágiles",
+          "url": "https://example.com/video2",
+          "tipos_aprendizaje": {
+            "visual": 40,
+            "auditivo": 40,
+            "lectura_escritura": 10,
+            "kinestesico": 10
+          },
+          "dificultad": 2
+        },
+        {
+          "id": 4,
+          "tipo": "ejercicio",
+          "nombre": "Práctica Ágil",
+          "url": "https://example.com/ejercicio1",
+          "tipos_aprendizaje": {
+            "visual": 20,
+            "auditivo": 10,
+            "lectura_escritura": 20,
+            "kinestesico": 50
+          },
+          "dificultad": 3
+        }
+      ]
+    },
+    {
+      "id_tema": 3,
+      "nombre_tema": "Scrum",
+      "materiales": [
+        {
+          "id": 5,
+          "tipo": "video",
+          "nombre": "Scrum en Profundidad",
+          "url": "https://example.com/video3",
+          "tipos_aprendizaje": {
+            "visual": 45,
+            "auditivo": 35,
+            "lectura_escritura": 10,
+            "kinestesico": 10
+          },
+          "dificultad": 3
+        },
+        {
+          "id": 7,
+          "tipo": "documento",
+          "nombre": "Guía de Scrum",
+          "url": "https://example.com/doc2",
+          "tipos_aprendizaje": {
+            "visual": 20,
+            "auditivo": 10,
+            "lectura_escritura": 60,
+            "kinestesico": 10
+          },
+          "dificultad": 2
+        }
+      ]
+    }
+  ]
+}

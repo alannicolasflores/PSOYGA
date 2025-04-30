@@ -38,9 +38,20 @@ def run(alumno=None, unidad_aprendizaje=None):
                     })
                 tema_index += 1
             if materiales_tema:
+                # Obtener el nombre del tema del test inicial si está disponible
+                nombre_tema = ""
+                for tema_test in alumno.get("test_inicial", {}).get("temas", []):
+                    if tema_test.get("id_tema") == tema.get("id"):
+                        nombre_tema = tema_test.get("nombre_tema", "")
+                        break
+                
+                # Si no se encontró en el test inicial, usar el nombre del tema de la unidad
+                if not nombre_tema:
+                    nombre_tema = tema.get("nombre", "")
+                
                 asignacion.append({
                     "id_tema": int(tema.get("id", 0)),
-                    "nombre_tema": str(tema.get("nombre", "")),
+                    "nombre_tema": str(nombre_tema),
                     "materiales": materiales_tema
                 })
 

@@ -68,6 +68,12 @@ class AlgoritmoGenetico:
         mejor_aptitud = -float('inf')
         contador_sin_mejora = 0
         
+        # Si solo hay un recurso, devolver directamente la mejor solución
+        if self.longitud_individuo == 1:
+            mejor_individuo = [1]  # Seleccionar el único recurso disponible
+            mejor_aptitud = self.funcion_aptitud(mejor_individuo, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma)
+            return mejor_individuo, mejor_aptitud, 1
+        
         for generacion in range(generaciones):
             poblacion = self.evolucionar(poblacion)
             individuo_actual_mejor = max(poblacion, key=lambda x: self.funcion_aptitud(x, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma))
