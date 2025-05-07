@@ -11,6 +11,20 @@ import requests
 # ---- Entorno virtual ----
 # env_tests
 
+# ---- Scripts de ejecucion y terminacion ----
+
+"""
+
+NOTA: 
+Los scripts están configurados para correr en una máquina MacOs, 
+tendrían que adaptarse para correr en Windows.
+
+"""
+# ./terminate.sh
+# ./terminate.sh
+
+
+
 # URL del endpoint de Azure Function
 url = "http://localhost:7071/api/optimize_resources" 
 
