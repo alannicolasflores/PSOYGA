@@ -49,26 +49,32 @@ class AlgoritmoGenetico:
             padre1 = self.funcion_seleccion(poblacion, lambda x: self.funcion_aptitud(x, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma), self.tam_torneo)
             padre2 = self.funcion_seleccion(poblacion, lambda x: self.funcion_aptitud(x, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma), self.tam_torneo)
 
-
             hijo1, hijo2 = self.funcion_cruza(padre1, padre2, self.tasa_de_cruza)
+            
 
             hijo1 = self.funcion_mutacion(hijo1, self.tasa_mutacion)
             hijo2 = self.funcion_mutacion(hijo2, self.tasa_mutacion)
+           
 
             hijo1 = hijo1[:self.longitud_individuo]
             hijo2 = hijo2[:self.longitud_individuo]
 
+            
+            
             nueva_poblacion.extend([hijo1, hijo2])
 
         return nueva_poblacion[:self.tamano_poblacion]
 
     def ejecutar(self, generaciones: int) -> Tuple[List[int], float, int]:
+            
         poblacion = self.inicializar_poblacion()
+            
         mejor_individuo = None
         mejor_aptitud = -float('inf')
         contador_sin_mejora = 0
         
         for generacion in range(generaciones):
+                
             poblacion = self.evolucionar(poblacion)
             individuo_actual_mejor = max(poblacion, key=lambda x: self.funcion_aptitud(x, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma))
             aptitud_actual_mejor = self.funcion_aptitud(individuo_actual_mejor, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma)

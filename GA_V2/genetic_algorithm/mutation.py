@@ -18,13 +18,14 @@ def mutacion_binaria(individual: List[int], tasa_mutacion: float) -> List[int]:
     """
     num_genes = len(individual)
     mutado = individual[:]  # Copia del individuo
+    
 
     #Se asegura que al menos 1 mutación ocurra
     indices_a_mutar = [i for i in range(num_genes) if random.random() < tasa_mutacion]
 
     
     if len(indices_a_mutar) == 0:  # Si no hay mutaciones, forzar 1 cambio mínimo
-        indices_a_mutar = [random.randint(0, num_genes - 1)]
+        indices_a_mutar = [random.randint(0, num_genes - 1 )]
 
     for idx in indices_a_mutar:
         mutado[idx] = 1 - mutado[idx]  # Invierte 0 ↔ 1
