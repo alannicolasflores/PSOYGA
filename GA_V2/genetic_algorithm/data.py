@@ -1,6 +1,7 @@
 import json
 import os
 
+
 def load_data(json_path):
     """
     Carga un archivo JSON desde una ruta especificada.
@@ -66,6 +67,7 @@ def preprocess_data(alumno, unidad_aprendizaje):
     student_knowledge = {
         tema["id_tema"]: tema["nivel"]
         for tema in alumno.get("test_inicial", {}).get("temas", [])
+    
     }
 
     # Estilos de aprendizaje del alumno
