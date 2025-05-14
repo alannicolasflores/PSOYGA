@@ -18,10 +18,6 @@ def run(alumno=None, unidad_aprendizaje=None):
         datos_estudiante = alumno or load_data(os.path.join(DATA_DIR, 'alumno.json'))
         datos_materiales = unidad_aprendizaje or load_data(os.path.join(DATA_DIR, 'unidad_aprendizaje.json'))
         
-        
-        if 'alumno' in datos_estudiante and 'test_inicial' in datos_estudiante['alumno']:
-            for tema in datos_estudiante['alumno']['test_inicial']['temas']:
-                tema['id'] = tema.get('id', tema.get('id_tema'))
 
         
         # 🛠️ Homologar estructura si vienen directo desde la API
