@@ -1,9 +1,8 @@
-import json
-import logging
-import os
 import sys
-
+import os
 import azure.functions as func
+import logging
+import json
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -39,7 +38,6 @@ def optimize_resources_endpoint(req: func.HttpRequest) -> func.HttpResponse:
         resultado_serializable = {
             "mejor_solucion": [int(x) for x in resultado["mejor_solucion"]],
             "puntaje": float(resultado["puntaje"]),
-            "generaciones": resultado.get("generaciones", []),
             "asignacion": [
                 {
                     "id_tema": int(tema["id_tema"]),
@@ -63,7 +61,6 @@ def optimize_resources_endpoint(req: func.HttpRequest) -> func.HttpResponse:
                 }
                 for tema in resultado["asignacion"]
             ]
-            
         }
 
         # Convertir a JSON con formato legible
