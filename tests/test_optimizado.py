@@ -20,7 +20,7 @@ Los scripts están configurados para correr en una máquina MacOs,
 tendrían que adaptarse para correr en Windows.
 
 """
-# ./terminate.sh
+# ./run_tests.sh
 # ./terminate.sh
 
 
@@ -29,542 +29,4045 @@ tendrían que adaptarse para correr en Windows.
 url = "http://localhost:7071/api/optimize_resources" 
 
 #Prueba con datos de entrada robusta
-"""
-datos_entrada_base = {
-    "alumno": {
+
+datos_entrada_base =  {
+    "alumno_1": {
         "id": 1,
-        "nombre": "Alan Joel",
+        "nombre": "Mónica Díaz Cano",
         "tipos_aprendizaje": {
-            "visual": 40,
-            "auditivo": 30,
-            "lectura_escritura": 20,
-            "kinestesico": 10
+            "visual": 24,
+            "auditivo": 51,
+            "lectura_escritura": 21,
+            "kinestesico": 4
         },
         "test_inicial": {
             "temas": [
                 {
                     "id_tema": 1,
-                    "nombre_tema": "Introducción",
-                    "nivel": 2
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
                 }
             ]
         }
     },
-    
-    "unidad_aprendizaje": {
-      "id": 1,
-      "nombre": "Unidad de Aprendizaje: Metodologías de Ingeniería de Software",
-      "descripcion": "Exploración de las principales metodologías utilizadas en la ingeniería de software para el desarrollo eficiente de proyectos.",
-      "modulos": [
-        {
-          "id": 1,
-          "nombre": "Módulo 1: Fundamentos de Ingeniería de Software",
-          "descripcion": "Bases y conceptos fundamentales en ingeniería de software.",
-          "temas": [
-            {
-              "id": 1,
-              "nombre": "Introducción a las metodologías de software",
-              "descripcion": "Descripción general de metodologías de desarrollo como cascada, ágil, y espiral.",
-              "recursos": [
-                {
-                  "id": 1,
-                  "tipo": "video",
-                  "nombre": "Historia de las metodologías",
-                  "url": "https://example.com/historia_metodologias",
-                  "descripcion": "Un video que cubre el origen y evolución de las metodologías de software.",
-                  "tipos_aprendizaje": {
-                    "visual": 50,
-                    "auditivo": 30,
-                    "lectura_escritura": 10,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 1
-                },
-                {
-                  "id": 2,
-                  "tipo": "documento",
-                  "nombre": "Comparativa de metodologías",
-                  "url": "https://example.com/comparativa_metodologias",
-                  "descripcion": "Un documento PDF que compara las principales metodologías.",
-                  "tipos_aprendizaje": {
-                    "visual": 20,
-                    "auditivo": 10,
-                    "lectura_escritura": 60,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 3,
-                  "tipo": "artículo",
-                  "nombre": "Tendencias actuales",
-                  "url": "https://example.com/tendencias_metodologias",
-                  "descripcion": "Artículo sobre tendencias modernas en el desarrollo ágil.",
-                  "tipos_aprendizaje": {
-                    "visual": 30,
-                    "auditivo": 20,
-                    "lectura_escritura": 40,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 1
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "nombre": "Metodología Cascada",
-              "descripcion": "Análisis detallado de la metodología en cascada y sus aplicaciones.",
-              "recursos": [
-                {
-                  "id": 4,
-                  "tipo": "video",
-                  "nombre": "Proceso en cascada",
-                  "url": "https://example.com/proceso_cascada",
-                  "descripcion": "Video explicativo sobre cómo funciona la metodología en cascada.",
-                  "tipos_aprendizaje": {
-                    "visual": 60,
-                    "auditivo": 20,
-                    "lectura_escritura": 10,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 1
-                },
-                {
-                  "id": 5,
-                  "tipo": "documento",
-                  "nombre": "Ventajas y desventajas",
-                  "url": "https://example.com/ventajas_cascada",
-                  "descripcion": "Documento que analiza los pros y contras de esta metodología.",
-                  "tipos_aprendizaje": {
-                    "visual": 30,
-                    "auditivo": 10,
-                    "lectura_escritura": 50,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 6,
-                  "tipo": "artículo",
-                  "nombre": "Proyectos reales en cascada",
-                  "url": "https://example.com/proyectos_cascada",
-                  "descripcion": "Artículo que describe proyectos exitosos desarrollados en cascada.",
-                  "tipos_aprendizaje": {
-                    "visual": 40,
-                    "auditivo": 10,
-                    "lectura_escritura": 40,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "nombre": "Metodologías Ágiles",
-              "descripcion": "Exploración de Scrum, Kanban y otras metodologías ágiles.",
-              "recursos": [
-                {
-                  "id": 7,
-                  "tipo": "video",
-                  "nombre": "Introducción a Scrum",
-                  "url": "https://example.com/scrum_basico",
-                  "descripcion": "Video explicativo sobre los principios de Scrum.",
-                  "tipos_aprendizaje": {
-                    "visual": 50,
-                    "auditivo": 30,
-                    "lectura_escritura": 10,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 1
-                },
-                {
-                  "id": 8,
-                  "tipo": "documento",
-                  "nombre": "Guía de Kanban",
-                  "url": "https://example.com/guia_kanban",
-                  "descripcion": "Documento que detalla los elementos clave de Kanban.",
-                  "tipos_aprendizaje": {
-                    "visual": 25,
-                    "auditivo": 15,
-                    "lectura_escritura": 50,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 9,
-                  "tipo": "artículo",
-                  "nombre": "Casos de éxito con ágil",
-                  "url": "https://example.com/casos_exito_agil",
-                  "descripcion": "Artículo que detalla proyectos exitosos implementando metodologías ágiles.",
-                  "tipos_aprendizaje": {
-                    "visual": 40,
-                    "auditivo": 20,
-                    "lectura_escritura": 30,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                }
-              ]
-            },
-            {
-              "id": 4,
-              "nombre": "Metodología Espiral",
-              "descripcion": "Estudio de la metodología espiral y su enfoque iterativo.",
-              "recursos": [
-                {
-                  "id": 10,
-                  "tipo": "video",
-                  "nombre": "Iteraciones en espiral",
-                  "url": "https://example.com/iteraciones_espiral",
-                  "descripcion": "Video explicativo sobre las iteraciones en la metodología espiral.",
-                  "tipos_aprendizaje": {
-                    "visual": 40,
-                    "auditivo": 30,
-                    "lectura_escritura": 20,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 1
-                },
-                {
-                  "id": 11,
-                  "tipo": "documento",
-                  "nombre": "Guía de la metodología espiral",
-                  "url": "https://example.com/guia_espiral",
-                  "descripcion": "Documento que explica cada etapa de la metodología espiral.",
-                  "tipos_aprendizaje": {
-                    "visual": 30,
-                    "auditivo": 20,
-                    "lectura_escritura": 40,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 12,
-                  "tipo": "artículo",
-                  "nombre": "Análisis de riesgos en espiral",
-                  "url": "https://example.com/riesgos_espiral",
-                  "descripcion": "Artículo que explica cómo manejar riesgos en la metodología espiral.",
-                  "tipos_aprendizaje": {
-                    "visual": 35,
-                    "auditivo": 20,
-                    "lectura_escritura": 35,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 3
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "nombre": "Metodologías Híbridas",
-              "descripcion": "Combinaciones de metodologías tradicionales y ágiles.",
-              "recursos": [
-                {
-                  "id": 13,
-                  "tipo": "video",
-                  "nombre": "Híbridos exitosos",
-                  "url": "https://example.com/hibridos_exitosos",
-                  "descripcion": "Video sobre la implementación de metodologías híbridas.",
-                  "tipos_aprendizaje": {
-                    "visual": 40,
-                    "auditivo": 30,
-                    "lectura_escritura": 20,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 14,
-                  "tipo": "documento",
-                  "nombre": "Guía para metodologías híbridas",
-                  "url": "https://example.com/guia_hibridos",
-                  "descripcion": "Documento detallado sobre la mezcla de metodologías tradicionales y ágiles.",
-                  "tipos_aprendizaje": {
-                    "visual": 30,
-                    "auditivo": 20,
-                    "lectura_escritura": 40,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 3
-                },
-                {
-                  "id": 15,
-                  "tipo": "artículo",
-                  "nombre": "Estudios de caso híbridos",
-                  "url": "https://example.com/caso_hibridos",
-                  "descripcion": "Artículo que analiza proyectos que combinaron metodologías.",
-                  "tipos_aprendizaje": {
-                    "visual": 35,
-                    "auditivo": 25,
-                    "lectura_escritura": 30,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 3
-                }
-              ]
-            },
-            {
-            "id": 6,
-            "nombre": "DevOps y Entrega Continua",
-            "descripcion": "Principios de integración y entrega continua en el desarrollo de software con enfoque DevOps.",
-            "recursos": [
-              {
-                "id": 16,
-                "tipo": "video",
-                "nombre": "Introducción a DevOps",
-                "url": "https://example.com/devops_intro",
-                "descripcion": "Video introductorio sobre la cultura DevOps y sus principios.",
-                "tipos_aprendizaje": {
-                  "visual": 50,
-                  "auditivo": 30,
-                  "lectura_escritura": 10,
-                  "kinestesico": 10
-                },
-                "dificultad": 1
-              },
-              {
-                "id": 17,
-                "tipo": "documento",
-                "nombre": "Guía de Integración Continua",
-                "url": "https://example.com/guia_integracion",
-                "descripcion": "Documento detallado sobre la implementación de integración continua.",
-                "tipos_aprendizaje": {
-                  "visual": 25,
-                  "auditivo": 15,
-                  "lectura_escritura": 50,
-                  "kinestesico": 10
-                },
-                "dificultad": 2
-              },
-              {
-                "id": 18,
-                "tipo": "artículo",
-                "nombre": "Casos de éxito en DevOps",
-                "url": "https://example.com/casos_devops",
-                "descripcion": "Artículo con ejemplos de empresas que han implementado con éxito DevOps.",
-                "tipos_aprendizaje": {
-                  "visual": 40,
-                  "auditivo": 20,
-                  "lectura_escritura": 30,
-                  "kinestesico": 10
-                },
-                "dificultad": 2
-              }
-            ]
-          }
-          ]
-        },
-        {
-          "id": 2,
-          "nombre": "Módulo 2: Diseño de Arquitecturas de Software",
-          "descripcion": "Principios y patrones arquitectónicos en el desarrollo de software.",
-          "temas": [
-            {
-              "id": 7,
-              "nombre": "Patrones de Diseño",
-              "descripcion": "Exploración de los patrones de diseño más utilizados en la ingeniería de software.",
-              "recursos": [
-                {
-                  "id": 19,
-                  "tipo": "video",
-                  "nombre": "Patrones de diseño en la práctica",
-                  "url": "https://example.com/patrones_diseno",
-                  "descripcion": "Video que muestra ejemplos reales de patrones de diseño.",
-                  "tipos_aprendizaje": {
-                    "visual": 60,
-                    "auditivo": 20,
-                    "lectura_escritura": 10,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 20,
-                  "tipo": "documento",
-                  "nombre": "Guía de patrones de diseño",
-                  "url": "https://example.com/guia_patrones",
-                  "descripcion": "Documento con una guía completa de patrones de diseño.",
-                  "tipos_aprendizaje": {
-                    "visual": 30,
-                    "auditivo": 10,
-                    "lectura_escritura": 50,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 3
-                },
-                {
-                  "id": 21,
-                  "tipo": "artículo",
-                  "nombre": "Casos de estudio sobre patrones",
-                  "url": "https://example.com/casos_patrones",
-                  "descripcion": "Artículo con ejemplos de uso de patrones en la industria.",
-                  "tipos_aprendizaje": {
-                    "visual": 40,
-                    "auditivo": 15,
-                    "lectura_escritura": 35,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 3,
-          "nombre": "Módulo 3: Pruebas y Mantenimiento de Software",
-          "descripcion": "Metodologías y herramientas para pruebas y mantenimiento del software.",
-          "temas": [
-            {
-              "id": 8,
-              "nombre": "Pruebas Automatizadas",
-              "descripcion": "Técnicas y herramientas para la automatización de pruebas en software.",
-              "recursos": [
-                {
-                  "id": 22,
-                  "tipo": "video",
-                  "nombre": "Fundamentos de pruebas automatizadas",
-                  "url": "https://example.com/pruebas_automatizadas",
-                  "descripcion": "Video explicativo sobre la importancia de las pruebas automatizadas.",
-                  "tipos_aprendizaje": {
-                    "visual": 50,
-                    "auditivo": 30,
-                    "lectura_escritura": 10,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 23,
-                  "tipo": "documento",
-                  "nombre": "Guía de herramientas de testing",
-                  "url": "https://example.com/herramientas_testing",
-                  "descripcion": "Documento sobre herramientas para pruebas automatizadas.",
-                  "tipos_aprendizaje": {
-                    "visual": 25,
-                    "auditivo": 15,
-                    "lectura_escritura": 50,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 2
-                },
-                {
-                  "id": 24,
-                  "tipo": "artículo",
-                  "nombre": "Pruebas en la industria",
-                  "url": "https://example.com/casos_testing",
-                  "descripcion": "Artículo sobre cómo empresas aplican pruebas automatizadas.",
-                  "tipos_aprendizaje": {
-                    "visual": 35,
-                    "auditivo": 25,
-                    "lectura_escritura": 30,
-                    "kinestesico": 10
-                  },
-                  "dificultad": 3
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-} 
-"""
-
-
-# Prueba con datos de entrada básicos
-datos_entrada_base = {
-    "alumno": {
+    "unidad_aprendizaje_1": {
         "id": 1,
-        "nombre": "Alan Joel",
-        "tipos_aprendizaje": {
-            "visual": 40,
-            "auditivo": 30,
-            "lectura_escritura": 20,
-            "kinestesico": 10
-        },
-        "test_inicial": {
-            "temas": [
-                {
-                    "id_tema": 1,
-                    "nombre_tema": "Introducción",
-                    "nivel": 2
-                }
-            ]
-        }
-    },
-    "unidad_aprendizaje": {
-        "id": 1,
-        "nombre": "UA Metodologías",
+        "nombre": "Unidad de Aprendizaje: Metodologías de Ingeniería de Software",
+        "descripcion": "Exploración de las principales metodologías utilizadas en la ingeniería de software para el desarrollo eficiente de proyectos.",
         "modulos": [
             {
                 "id": 1,
+                "nombre": "Fundamentos",
                 "temas": [
                     {
                         "id": 1,
+                        "nombre": "Fundamentos de ingeniería de software",
+                        "descripcion": "Descripción general de Fundamentos de ingeniería de software.",
                         "recursos": [
                             {
                                 "id": 1,
-                                "tipo": "video",
-                                "nombre": "Video test",
-                                "url": "https://example.com",
+                                "tipo": "pdf",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato pdf.",
                                 "tipos_aprendizaje": {
-                                    "visual": 50,
-                                    "auditivo": 30,
-                                    "lectura_escritura": 10,
-                                    "kinestesico": 10
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 2,
+                                "tipo": "video",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_1",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_1.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 3,
+                                "tipo": "audio",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 4,
+                                "tipo": "presentacion",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_4",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_4.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Plan de proyecto software",
+                        "descripcion": "Descripción general de Plan de proyecto software.",
+                        "recursos": [
+                            {
+                                "id": 5,
+                                "tipo": "pdf",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 6,
+                                "tipo": "video",
+                                "nombre": "Plan_de_proyecto_software_5",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_5.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 7,
+                                "tipo": "audio",
+                                "nombre": "Plan_de_proyecto_software_4",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_4.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 8,
+                                "tipo": "presentacion",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "Modelos de procesos",
+                        "descripcion": "Descripción general de Modelos de procesos.",
+                        "recursos": [
+                            {
+                                "id": 9,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_procesos_4",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_4.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 10,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_procesos_1",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_1.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 11,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_procesos_2",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_2.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 12,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_procesos_3",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_3.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "Principios y metodologías ágiles",
+                        "descripcion": "Descripción general de Principios y metodologías ágiles.",
+                        "recursos": [
+                            {
+                                "id": 13,
+                                "tipo": "pdf",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 14,
+                                "tipo": "video",
+                                "nombre": "Principios_y_metodologías_ágiles_5",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_5.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 15,
+                                "tipo": "audio",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 16,
+                                "tipo": "presentacion",
+                                "nombre": "Principios_y_metodologías_ágiles_3",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_3.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
                                 },
                                 "dificultad": 1
                             }
                         ]
                     }
                 ]
+            },
+            {
+                "id": 2,
+                "nombre": "Diseño y Construcción",
+                "temas": [
+                    {
+                        "id": 5,
+                        "nombre": "Ingeniería de requerimientos",
+                        "descripcion": "Descripción general de Ingeniería de requerimientos.",
+                        "recursos": [
+                            {
+                                "id": 17,
+                                "tipo": "pdf",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 18,
+                                "tipo": "video",
+                                "nombre": "Ingeniería_de_requerimientos_2",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_2.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 19,
+                                "tipo": "audio",
+                                "nombre": "Ingeniería_de_requerimientos_1",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_1.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 20,
+                                "tipo": "presentacion",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "nombre": "Diseño del sistema software",
+                        "descripcion": "Descripción general de Diseño del sistema software.",
+                        "recursos": [
+                            {
+                                "id": 21,
+                                "tipo": "pdf",
+                                "nombre": "Diseño_del_sistema_software_2",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_2.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 22,
+                                "tipo": "video",
+                                "nombre": "Diseño_del_sistema_software_1",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_1.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 23,
+                                "tipo": "audio",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 24,
+                                "tipo": "presentacion",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "nombre": "Herramientas de modelado",
+                        "descripcion": "Descripción general de Herramientas de modelado.",
+                        "recursos": [
+                            {
+                                "id": 25,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 26,
+                                "tipo": "video",
+                                "nombre": "Herramientas_de_modelado_2",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_2.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 27,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_de_modelado_5",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_5.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 28,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Pruebas de Software",
+                "temas": [
+                    {
+                        "id": 8,
+                        "nombre": "Tipos de pruebas",
+                        "descripcion": "Descripción general de Tipos de pruebas.",
+                        "recursos": [
+                            {
+                                "id": 29,
+                                "tipo": "pdf",
+                                "nombre": "Tipos_de_pruebas_software_1",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_1.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 30,
+                                "tipo": "video",
+                                "nombre": "Tipos_de_pruebas_software_4",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_4.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 31,
+                                "tipo": "audio",
+                                "nombre": "Tipos_de_pruebas_software_3",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_3.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 32,
+                                "tipo": "presentacion",
+                                "nombre": "Tipos_de_pruebas_software_2",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_2.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "nombre": "Herramientas para pruebas",
+                        "descripcion": "Descripción general de Herramientas para pruebas.",
+                        "recursos": [
+                            {
+                                "id": 33,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_para_pruebas_3",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_3.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 34,
+                                "tipo": "video",
+                                "nombre": "Herramientas_para_pruebas_5",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_5.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 35,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_para_pruebas_2",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_2.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 36,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_para_pruebas_4",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_4.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "nombre": "Evaluación de las pruebas",
+                        "descripcion": "Descripción general de Evaluación de las pruebas.",
+                        "recursos": [
+                            {
+                                "id": 37,
+                                "tipo": "pdf",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 38,
+                                "tipo": "video",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 39,
+                                "tipo": "audio",
+                                "nombre": "Evaluación_de_las_pruebas_2",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_2.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 40,
+                                "tipo": "presentacion",
+                                "nombre": "Evaluación_de_las_pruebas_4",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_4.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "nombre": "Calidad y Modelos de Madurez",
+                "temas": [
+                    {
+                        "id": 11,
+                        "nombre": "Calidad del proceso software",
+                        "descripcion": "Descripción general de Calidad del proceso software.",
+                        "recursos": [
+                            {
+                                "id": 41,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_proceso_software_1",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_1.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 42,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 43,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 44,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_proceso_software_2",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_2.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "nombre": "Calidad del producto software",
+                        "descripcion": "Descripción general de Calidad del producto software.",
+                        "recursos": [
+                            {
+                                "id": 45,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_producto_software_1",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_1.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 46,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_producto_software_2",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_2.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 47,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_producto_software_3",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_3.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 48,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_producto_software_5",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_5.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "nombre": "Modelos y normas de calidad",
+                        "descripcion": "Descripción general de Modelos y normas de calidad.",
+                        "recursos": [
+                            {
+                                "id": 49,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 50,
+                                "tipo": "video",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 51,
+                                "tipo": "audio",
+                                "nombre": "Modelos_y_normas_de_calidad_3",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_3.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 52,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_y_normas_de_calidad_5",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_5.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "nombre": "Modelos de madurez",
+                        "descripcion": "Descripción general de Modelos de madurez.",
+                        "recursos": [
+                            {
+                                "id": 53,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 54,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_madurez_en_software_1",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_1.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 55,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 56,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_madurez_en_software_3",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_3.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
             }
         ]
-    }
-} 
-
+    },
+    "alumno_2": {
+        "id": 2,
+        "nombre": "Raquel Moreno Poveda",
+        "tipos_aprendizaje": {
+            "visual": 25,
+            "auditivo": 53,
+            "lectura_escritura": 9,
+            "kinestesico": 13
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "unidad_aprendizaje_2": {
+        "id": 1,
+        "nombre": "Unidad de Aprendizaje: Metodologías de Ingeniería de Software",
+        "descripcion": "Exploración de las principales metodologías utilizadas en la ingeniería de software para el desarrollo eficiente de proyectos.",
+        "modulos": [
+            {
+                "id": 1,
+                "nombre": "Fundamentos",
+                "temas": [
+                    {
+                        "id": 1,
+                        "nombre": "Fundamentos de ingeniería de software",
+                        "descripcion": "Descripción general de Fundamentos de ingeniería de software.",
+                        "recursos": [
+                            {
+                                "id": 1,
+                                "tipo": "pdf",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 2,
+                                "tipo": "video",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_1",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_1.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 3,
+                                "tipo": "audio",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 4,
+                                "tipo": "presentacion",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_4",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_4.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Plan de proyecto software",
+                        "descripcion": "Descripción general de Plan de proyecto software.",
+                        "recursos": [
+                            {
+                                "id": 5,
+                                "tipo": "pdf",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 6,
+                                "tipo": "video",
+                                "nombre": "Plan_de_proyecto_software_5",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_5.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 7,
+                                "tipo": "audio",
+                                "nombre": "Plan_de_proyecto_software_4",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_4.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 8,
+                                "tipo": "presentacion",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "Modelos de procesos",
+                        "descripcion": "Descripción general de Modelos de procesos.",
+                        "recursos": [
+                            {
+                                "id": 9,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_procesos_4",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_4.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 10,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_procesos_1",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_1.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 11,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_procesos_2",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_2.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 12,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_procesos_3",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_3.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "Principios y metodologías ágiles",
+                        "descripcion": "Descripción general de Principios y metodologías ágiles.",
+                        "recursos": [
+                            {
+                                "id": 13,
+                                "tipo": "pdf",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 14,
+                                "tipo": "video",
+                                "nombre": "Principios_y_metodologías_ágiles_5",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_5.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 15,
+                                "tipo": "audio",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 16,
+                                "tipo": "presentacion",
+                                "nombre": "Principios_y_metodologías_ágiles_3",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_3.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Diseño y Construcción",
+                "temas": [
+                    {
+                        "id": 5,
+                        "nombre": "Ingeniería de requerimientos",
+                        "descripcion": "Descripción general de Ingeniería de requerimientos.",
+                        "recursos": [
+                            {
+                                "id": 17,
+                                "tipo": "pdf",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 18,
+                                "tipo": "video",
+                                "nombre": "Ingeniería_de_requerimientos_2",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_2.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 19,
+                                "tipo": "audio",
+                                "nombre": "Ingeniería_de_requerimientos_1",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_1.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 20,
+                                "tipo": "presentacion",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "nombre": "Diseño del sistema software",
+                        "descripcion": "Descripción general de Diseño del sistema software.",
+                        "recursos": [
+                            {
+                                "id": 21,
+                                "tipo": "pdf",
+                                "nombre": "Diseño_del_sistema_software_2",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_2.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 22,
+                                "tipo": "video",
+                                "nombre": "Diseño_del_sistema_software_1",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_1.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 23,
+                                "tipo": "audio",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 24,
+                                "tipo": "presentacion",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "nombre": "Herramientas de modelado",
+                        "descripcion": "Descripción general de Herramientas de modelado.",
+                        "recursos": [
+                            {
+                                "id": 25,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 26,
+                                "tipo": "video",
+                                "nombre": "Herramientas_de_modelado_2",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_2.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 27,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_de_modelado_5",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_5.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 28,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Pruebas de Software",
+                "temas": [
+                    {
+                        "id": 8,
+                        "nombre": "Tipos de pruebas",
+                        "descripcion": "Descripción general de Tipos de pruebas.",
+                        "recursos": [
+                            {
+                                "id": 29,
+                                "tipo": "pdf",
+                                "nombre": "Tipos_de_pruebas_software_1",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_1.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 30,
+                                "tipo": "video",
+                                "nombre": "Tipos_de_pruebas_software_4",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_4.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 31,
+                                "tipo": "audio",
+                                "nombre": "Tipos_de_pruebas_software_3",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_3.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 32,
+                                "tipo": "presentacion",
+                                "nombre": "Tipos_de_pruebas_software_2",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_2.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "nombre": "Herramientas para pruebas",
+                        "descripcion": "Descripción general de Herramientas para pruebas.",
+                        "recursos": [
+                            {
+                                "id": 33,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_para_pruebas_3",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_3.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 34,
+                                "tipo": "video",
+                                "nombre": "Herramientas_para_pruebas_5",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_5.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 35,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_para_pruebas_2",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_2.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 36,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_para_pruebas_4",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_4.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "nombre": "Evaluación de las pruebas",
+                        "descripcion": "Descripción general de Evaluación de las pruebas.",
+                        "recursos": [
+                            {
+                                "id": 37,
+                                "tipo": "pdf",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 38,
+                                "tipo": "video",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 39,
+                                "tipo": "audio",
+                                "nombre": "Evaluación_de_las_pruebas_2",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_2.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 40,
+                                "tipo": "presentacion",
+                                "nombre": "Evaluación_de_las_pruebas_4",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_4.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "nombre": "Calidad y Modelos de Madurez",
+                "temas": [
+                    {
+                        "id": 11,
+                        "nombre": "Calidad del proceso software",
+                        "descripcion": "Descripción general de Calidad del proceso software.",
+                        "recursos": [
+                            {
+                                "id": 41,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_proceso_software_1",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_1.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 42,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 43,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 44,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_proceso_software_2",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_2.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "nombre": "Calidad del producto software",
+                        "descripcion": "Descripción general de Calidad del producto software.",
+                        "recursos": [
+                            {
+                                "id": 45,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_producto_software_1",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_1.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 46,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_producto_software_2",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_2.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 47,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_producto_software_3",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_3.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 48,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_producto_software_5",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_5.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "nombre": "Modelos y normas de calidad",
+                        "descripcion": "Descripción general de Modelos y normas de calidad.",
+                        "recursos": [
+                            {
+                                "id": 49,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 50,
+                                "tipo": "video",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 51,
+                                "tipo": "audio",
+                                "nombre": "Modelos_y_normas_de_calidad_3",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_3.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 52,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_y_normas_de_calidad_5",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_5.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "nombre": "Modelos de madurez",
+                        "descripcion": "Descripción general de Modelos de madurez.",
+                        "recursos": [
+                            {
+                                "id": 53,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 54,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_madurez_en_software_1",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_1.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 55,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 56,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_madurez_en_software_3",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_3.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "alumno_3": {
+        "id": 3,
+        "nombre": "Mario Moreno Cano",
+        "tipos_aprendizaje": {
+            "visual": 19,
+            "auditivo": 60,
+            "lectura_escritura": 12,
+            "kinestesico": 9
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "unidad_aprendizaje_3": {
+        "id": 1,
+        "nombre": "Unidad de Aprendizaje: Metodologías de Ingeniería de Software",
+        "descripcion": "Exploración de las principales metodologías utilizadas en la ingeniería de software para el desarrollo eficiente de proyectos.",
+        "modulos": [
+            {
+                "id": 1,
+                "nombre": "Fundamentos",
+                "temas": [
+                    {
+                        "id": 1,
+                        "nombre": "Fundamentos de ingeniería de software",
+                        "descripcion": "Descripción general de Fundamentos de ingeniería de software.",
+                        "recursos": [
+                            {
+                                "id": 1,
+                                "tipo": "pdf",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 2,
+                                "tipo": "video",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_1",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_1.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 3,
+                                "tipo": "audio",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 4,
+                                "tipo": "presentacion",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_4",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_4.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Plan de proyecto software",
+                        "descripcion": "Descripción general de Plan de proyecto software.",
+                        "recursos": [
+                            {
+                                "id": 5,
+                                "tipo": "pdf",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 6,
+                                "tipo": "video",
+                                "nombre": "Plan_de_proyecto_software_5",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_5.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 7,
+                                "tipo": "audio",
+                                "nombre": "Plan_de_proyecto_software_4",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_4.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 8,
+                                "tipo": "presentacion",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "Modelos de procesos",
+                        "descripcion": "Descripción general de Modelos de procesos.",
+                        "recursos": [
+                            {
+                                "id": 9,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_procesos_4",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_4.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 10,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_procesos_1",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_1.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 11,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_procesos_2",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_2.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 12,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_procesos_3",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_3.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "Principios y metodologías ágiles",
+                        "descripcion": "Descripción general de Principios y metodologías ágiles.",
+                        "recursos": [
+                            {
+                                "id": 13,
+                                "tipo": "pdf",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 14,
+                                "tipo": "video",
+                                "nombre": "Principios_y_metodologías_ágiles_5",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_5.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 15,
+                                "tipo": "audio",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 16,
+                                "tipo": "presentacion",
+                                "nombre": "Principios_y_metodologías_ágiles_3",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_3.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Diseño y Construcción",
+                "temas": [
+                    {
+                        "id": 5,
+                        "nombre": "Ingeniería de requerimientos",
+                        "descripcion": "Descripción general de Ingeniería de requerimientos.",
+                        "recursos": [
+                            {
+                                "id": 17,
+                                "tipo": "pdf",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 18,
+                                "tipo": "video",
+                                "nombre": "Ingeniería_de_requerimientos_2",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_2.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 19,
+                                "tipo": "audio",
+                                "nombre": "Ingeniería_de_requerimientos_1",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_1.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 20,
+                                "tipo": "presentacion",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "nombre": "Diseño del sistema software",
+                        "descripcion": "Descripción general de Diseño del sistema software.",
+                        "recursos": [
+                            {
+                                "id": 21,
+                                "tipo": "pdf",
+                                "nombre": "Diseño_del_sistema_software_2",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_2.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 22,
+                                "tipo": "video",
+                                "nombre": "Diseño_del_sistema_software_1",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_1.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 23,
+                                "tipo": "audio",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 24,
+                                "tipo": "presentacion",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "nombre": "Herramientas de modelado",
+                        "descripcion": "Descripción general de Herramientas de modelado.",
+                        "recursos": [
+                            {
+                                "id": 25,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 26,
+                                "tipo": "video",
+                                "nombre": "Herramientas_de_modelado_2",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_2.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 27,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_de_modelado_5",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_5.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 28,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Pruebas de Software",
+                "temas": [
+                    {
+                        "id": 8,
+                        "nombre": "Tipos de pruebas",
+                        "descripcion": "Descripción general de Tipos de pruebas.",
+                        "recursos": [
+                            {
+                                "id": 29,
+                                "tipo": "pdf",
+                                "nombre": "Tipos_de_pruebas_software_1",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_1.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 30,
+                                "tipo": "video",
+                                "nombre": "Tipos_de_pruebas_software_4",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_4.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 31,
+                                "tipo": "audio",
+                                "nombre": "Tipos_de_pruebas_software_3",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_3.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 32,
+                                "tipo": "presentacion",
+                                "nombre": "Tipos_de_pruebas_software_2",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_2.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "nombre": "Herramientas para pruebas",
+                        "descripcion": "Descripción general de Herramientas para pruebas.",
+                        "recursos": [
+                            {
+                                "id": 33,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_para_pruebas_3",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_3.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 34,
+                                "tipo": "video",
+                                "nombre": "Herramientas_para_pruebas_5",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_5.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 35,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_para_pruebas_2",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_2.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 36,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_para_pruebas_4",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_4.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "nombre": "Evaluación de las pruebas",
+                        "descripcion": "Descripción general de Evaluación de las pruebas.",
+                        "recursos": [
+                            {
+                                "id": 37,
+                                "tipo": "pdf",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 38,
+                                "tipo": "video",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 39,
+                                "tipo": "audio",
+                                "nombre": "Evaluación_de_las_pruebas_2",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_2.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 40,
+                                "tipo": "presentacion",
+                                "nombre": "Evaluación_de_las_pruebas_4",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_4.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "nombre": "Calidad y Modelos de Madurez",
+                "temas": [
+                    {
+                        "id": 11,
+                        "nombre": "Calidad del proceso software",
+                        "descripcion": "Descripción general de Calidad del proceso software.",
+                        "recursos": [
+                            {
+                                "id": 41,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_proceso_software_1",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_1.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 42,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 43,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 44,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_proceso_software_2",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_2.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "nombre": "Calidad del producto software",
+                        "descripcion": "Descripción general de Calidad del producto software.",
+                        "recursos": [
+                            {
+                                "id": 45,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_producto_software_1",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_1.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 46,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_producto_software_2",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_2.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 47,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_producto_software_3",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_3.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 48,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_producto_software_5",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_5.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "nombre": "Modelos y normas de calidad",
+                        "descripcion": "Descripción general de Modelos y normas de calidad.",
+                        "recursos": [
+                            {
+                                "id": 49,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 50,
+                                "tipo": "video",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 51,
+                                "tipo": "audio",
+                                "nombre": "Modelos_y_normas_de_calidad_3",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_3.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 52,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_y_normas_de_calidad_5",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_5.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "nombre": "Modelos de madurez",
+                        "descripcion": "Descripción general de Modelos de madurez.",
+                        "recursos": [
+                            {
+                                "id": 53,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 54,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_madurez_en_software_1",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_1.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 55,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 56,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_madurez_en_software_3",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_3.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "alumno_4": {
+        "id": 4,
+        "nombre": "Antonio Serrano Vázquez",
+        "tipos_aprendizaje": {
+            "visual": 17,
+            "auditivo": 53,
+            "lectura_escritura": 7,
+            "kinestesico": 23
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "unidad_aprendizaje_4": {
+        "id": 1,
+        "nombre": "Unidad de Aprendizaje: Metodologías de Ingeniería de Software",
+        "descripcion": "Exploración de las principales metodologías utilizadas en la ingeniería de software para el desarrollo eficiente de proyectos.",
+        "modulos": [
+            {
+                "id": 1,
+                "nombre": "Fundamentos",
+                "temas": [
+                    {
+                        "id": 1,
+                        "nombre": "Fundamentos de ingeniería de software",
+                        "descripcion": "Descripción general de Fundamentos de ingeniería de software.",
+                        "recursos": [
+                            {
+                                "id": 1,
+                                "tipo": "pdf",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 2,
+                                "tipo": "video",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_1",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_1.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 3,
+                                "tipo": "audio",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_5",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_5.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 4,
+                                "tipo": "presentacion",
+                                "nombre": "Fundamentos_de_ingeniería_de_software_4",
+                                "url": "https://Fundamentos_de_ingeniería_de_software/Fundamentos_de_ingeniería_de_software_4.com",
+                                "descripcion": "Material sobre Fundamentos de ingeniería de software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nombre": "Plan de proyecto software",
+                        "descripcion": "Descripción general de Plan de proyecto software.",
+                        "recursos": [
+                            {
+                                "id": 5,
+                                "tipo": "pdf",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 6,
+                                "tipo": "video",
+                                "nombre": "Plan_de_proyecto_software_5",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_5.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 7,
+                                "tipo": "audio",
+                                "nombre": "Plan_de_proyecto_software_4",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_4.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 8,
+                                "tipo": "presentacion",
+                                "nombre": "Plan_de_proyecto_software_1",
+                                "url": "https://Plan_de_proyecto_software/Plan_de_proyecto_software_1.com",
+                                "descripcion": "Material sobre Plan de proyecto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "nombre": "Modelos de procesos",
+                        "descripcion": "Descripción general de Modelos de procesos.",
+                        "recursos": [
+                            {
+                                "id": 9,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_procesos_4",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_4.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 10,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_procesos_1",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_1.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 11,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_procesos_2",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_2.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 12,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_procesos_3",
+                                "url": "https://Modelos_de_procesos/Modelos_de_procesos_3.com",
+                                "descripcion": "Material sobre Modelos de procesos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "nombre": "Principios y metodologías ágiles",
+                        "descripcion": "Descripción general de Principios y metodologías ágiles.",
+                        "recursos": [
+                            {
+                                "id": 13,
+                                "tipo": "pdf",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 14,
+                                "tipo": "video",
+                                "nombre": "Principios_y_metodologías_ágiles_5",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_5.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 15,
+                                "tipo": "audio",
+                                "nombre": "Principios_y_metodologías_ágiles_4",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_4.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            },
+                            {
+                                "id": 16,
+                                "tipo": "presentacion",
+                                "nombre": "Principios_y_metodologías_ágiles_3",
+                                "url": "https://Principios_y_metodologías_ágiles/Principios_y_metodologías_ágiles_3.com",
+                                "descripcion": "Material sobre Principios y metodologías ágiles en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nombre": "Diseño y Construcción",
+                "temas": [
+                    {
+                        "id": 5,
+                        "nombre": "Ingeniería de requerimientos",
+                        "descripcion": "Descripción general de Ingeniería de requerimientos.",
+                        "recursos": [
+                            {
+                                "id": 17,
+                                "tipo": "pdf",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 18,
+                                "tipo": "video",
+                                "nombre": "Ingeniería_de_requerimientos_2",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_2.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 19,
+                                "tipo": "audio",
+                                "nombre": "Ingeniería_de_requerimientos_1",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_1.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 20,
+                                "tipo": "presentacion",
+                                "nombre": "Ingeniería_de_requerimientos_4",
+                                "url": "https://Ingeniería_de_requerimientos/Ingeniería_de_requerimientos_4.com",
+                                "descripcion": "Material sobre Ingeniería de requerimientos en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "nombre": "Diseño del sistema software",
+                        "descripcion": "Descripción general de Diseño del sistema software.",
+                        "recursos": [
+                            {
+                                "id": 21,
+                                "tipo": "pdf",
+                                "nombre": "Diseño_del_sistema_software_2",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_2.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 22,
+                                "tipo": "video",
+                                "nombre": "Diseño_del_sistema_software_1",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_1.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 23,
+                                "tipo": "audio",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 24,
+                                "tipo": "presentacion",
+                                "nombre": "Diseño_del_sistema_software_5",
+                                "url": "https://Diseño_del_sistema_software/Diseño_del_sistema_software_5.com",
+                                "descripcion": "Material sobre Diseño del sistema software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    },
+                    {
+                        "id": 7,
+                        "nombre": "Herramientas de modelado",
+                        "descripcion": "Descripción general de Herramientas de modelado.",
+                        "recursos": [
+                            {
+                                "id": 25,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 26,
+                                "tipo": "video",
+                                "nombre": "Herramientas_de_modelado_2",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_2.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 27,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_de_modelado_5",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_5.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            },
+                            {
+                                "id": 28,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_de_modelado_1",
+                                "url": "https://Herramientas_de_modelado/Herramientas_de_modelado_1.com",
+                                "descripcion": "Material sobre Herramientas de modelado en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nombre": "Pruebas de Software",
+                "temas": [
+                    {
+                        "id": 8,
+                        "nombre": "Tipos de pruebas",
+                        "descripcion": "Descripción general de Tipos de pruebas.",
+                        "recursos": [
+                            {
+                                "id": 29,
+                                "tipo": "pdf",
+                                "nombre": "Tipos_de_pruebas_software_1",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_1.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 30,
+                                "tipo": "video",
+                                "nombre": "Tipos_de_pruebas_software_4",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_4.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 31,
+                                "tipo": "audio",
+                                "nombre": "Tipos_de_pruebas_software_3",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_3.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 32,
+                                "tipo": "presentacion",
+                                "nombre": "Tipos_de_pruebas_software_2",
+                                "url": "https://Tipos_de_pruebas/Tipos_de_pruebas_software_2.com",
+                                "descripcion": "Material sobre Tipos de pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "nombre": "Herramientas para pruebas",
+                        "descripcion": "Descripción general de Herramientas para pruebas.",
+                        "recursos": [
+                            {
+                                "id": 33,
+                                "tipo": "pdf",
+                                "nombre": "Herramientas_para_pruebas_3",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_3.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 34,
+                                "tipo": "video",
+                                "nombre": "Herramientas_para_pruebas_5",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_5.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 35,
+                                "tipo": "audio",
+                                "nombre": "Herramientas_para_pruebas_2",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_2.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 36,
+                                "tipo": "presentacion",
+                                "nombre": "Herramientas_para_pruebas_4",
+                                "url": "https://Herramientas_para_pruebas/Herramientas_para_pruebas_4.com",
+                                "descripcion": "Material sobre Herramientas para pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "nombre": "Evaluación de las pruebas",
+                        "descripcion": "Descripción general de Evaluación de las pruebas.",
+                        "recursos": [
+                            {
+                                "id": 37,
+                                "tipo": "pdf",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 38,
+                                "tipo": "video",
+                                "nombre": "Evaluación_de_las_pruebas_5",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_5.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 39,
+                                "tipo": "audio",
+                                "nombre": "Evaluación_de_las_pruebas_2",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_2.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 40,
+                                "tipo": "presentacion",
+                                "nombre": "Evaluación_de_las_pruebas_4",
+                                "url": "https://Evaluación_de_las_pruebas/Evaluación_de_las_pruebas_4.com",
+                                "descripcion": "Material sobre Evaluación de las pruebas en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "nombre": "Calidad y Modelos de Madurez",
+                "temas": [
+                    {
+                        "id": 11,
+                        "nombre": "Calidad del proceso software",
+                        "descripcion": "Descripción general de Calidad del proceso software.",
+                        "recursos": [
+                            {
+                                "id": 41,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_proceso_software_1",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_1.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 42,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 43,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_proceso_software_5",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_5.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 44,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_proceso_software_2",
+                                "url": "https://Calidad_del_proceso_software/Calidad_del_proceso_software_2.com",
+                                "descripcion": "Material sobre Calidad del proceso software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "nombre": "Calidad del producto software",
+                        "descripcion": "Descripción general de Calidad del producto software.",
+                        "recursos": [
+                            {
+                                "id": 45,
+                                "tipo": "pdf",
+                                "nombre": "Calidad_del_producto_software_1",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_1.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 46,
+                                "tipo": "video",
+                                "nombre": "Calidad_del_producto_software_2",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_2.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 47,
+                                "tipo": "audio",
+                                "nombre": "Calidad_del_producto_software_3",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_3.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 48,
+                                "tipo": "presentacion",
+                                "nombre": "Calidad_del_producto_software_5",
+                                "url": "https://Calidad_del_producto_software/Calidad_del_producto_software_5.com",
+                                "descripcion": "Material sobre Calidad del producto software en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "nombre": "Modelos y normas de calidad",
+                        "descripcion": "Descripción general de Modelos y normas de calidad.",
+                        "recursos": [
+                            {
+                                "id": 49,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 50,
+                                "tipo": "video",
+                                "nombre": "Modelos_y_normas_de_calidad_4",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_4.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 51,
+                                "tipo": "audio",
+                                "nombre": "Modelos_y_normas_de_calidad_3",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_3.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 52,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_y_normas_de_calidad_5",
+                                "url": "https://Modelos_y_normas_de_calidad/Modelos_y_normas_de_calidad_5.com",
+                                "descripcion": "Material sobre Modelos y normas de calidad en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "nombre": "Modelos de madurez",
+                        "descripcion": "Descripción general de Modelos de madurez.",
+                        "recursos": [
+                            {
+                                "id": 53,
+                                "tipo": "pdf",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato pdf.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 60,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 54,
+                                "tipo": "video",
+                                "nombre": "Modelos_de_madurez_en_software_1",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_1.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato video.",
+                                "tipos_aprendizaje": {
+                                    "visual": 30,
+                                    "auditivo": 25,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 40
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 55,
+                                "tipo": "audio",
+                                "nombre": "Modelos_de_madurez_en_software_4",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_4.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato audio.",
+                                "tipos_aprendizaje": {
+                                    "visual": 10,
+                                    "auditivo": 80,
+                                    "lectura_escritura": 5,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            },
+                            {
+                                "id": 56,
+                                "tipo": "presentacion",
+                                "nombre": "Modelos_de_madurez_en_software_3",
+                                "url": "https://Modelos_de_madurez/Modelos_de_madurez_en_software_3.com",
+                                "descripcion": "Material sobre Modelos de madurez en formato presentacion.",
+                                "tipos_aprendizaje": {
+                                    "visual": 60,
+                                    "auditivo": 5,
+                                    "lectura_escritura": 30,
+                                    "kinestesico": 5
+                                },
+                                "dificultad": 3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+                    
+}
 # Prueba de optimización
-@pytest.mark.parametrize("algoritmo", ["GA_V1", "GA_V2"])
+@pytest.mark.parametrize("algoritmo", ["GA_V2"])
 def test_optimizacion(algoritmo):
-    
-    
     print(f"\nIniciando prueba de optimización del algoritmo {algoritmo}")
-    datos_entrada = dict(datos_entrada_base)
-    datos_entrada["algoritmo"] = algoritmo
     
-    response = requests.post(url, json=datos_entrada)
-    assert response.status_code == 200, f"Expected status code 200, got {response.status_code}"
-    print("Status code esperado: 200")
-    print(f"Status code obtenido: {response.status_code}")
-    
-    
-    assert response.headers['Content-Type'] == 'application/json', "Response is not in JSON format"
-    resultado = response.json()
-    
-    print("\nResultados de la optimización:")
-    print(f"Mejor solución: {resultado.get('mejor_solucion', 'No disponible')}")
-    print(f"Puntaje de la mejor solución: {resultado.get('puntaje', 'No disponible')}")
-    print("\nAsignación de materiales a los temas:")
-    
-    if 'asignacion' in resultado:
-        for tema in resultado['asignacion']:
-            print(f" Tema: {tema}")
-    else:
-        print("No se encontró asignación en la respuesta.")
-    
-    
-    required_fields = ['mejor_solucion', 'puntaje', 'asignacion']
-    for field in required_fields:
-        assert field in resultado, f"El campo '{field}' no está presente en la respuesta."
-    
-    
-    assert isinstance(resultado.get("mejor_solucion", []), list), "El campo 'mejor_solucion' no es una lista válida."
-    assert isinstance(resultado.get("puntaje", -1), float), "El puntaje no es un número flotante válido."
-    assert isinstance(resultado.get("asignacion", []), list), "El campo 'asignacion' no es una lista válida."
-    
-    print(f"\nPrueba de optimización para {algoritmo} completada con éxito" )
-    print(f"\n--------------------------------------------------------------------------- " )
+    for alumno_key in [k for k in datos_entrada_base.keys() if k.startswith("alumno")]:
+        datos_entrada = dict(datos_entrada_base)
+        datos_entrada["alumno"] = datos_entrada_base[alumno_key]
+        unidad_key = f"unidad_aprendizaje_{alumno_key.split('_')[-1]}"
+        datos_entrada["unidad_aprendizaje"] = datos_entrada_base.get(unidad_key, datos_entrada_base.get("unidad_aprendizaje"))
+        datos_entrada["algoritmo"] = algoritmo
+        print(f"\n==============================")
+        print(f"Alumno: {datos_entrada['alumno']['nombre']}")
+        print(f"==============================")
+        
+        response = requests.post(url, json=datos_entrada)
+        assert response.status_code == 200, f"Expected status code 200, got {response.status_code}"
+        print("Status code esperado: 200")
+        print(f"Status code obtenido: {response.status_code}")
+        
+        
+        assert response.headers['Content-Type'] == 'application/json', "Response is not in JSON format"
+        resultado = response.json()
+        
+        print("\nResultados de la optimización:")
+        print(f"Mejor solución: {resultado.get('mejor_solucion', 'No disponible')}")
+        print(f"Puntaje de la mejor solución: {resultado.get('puntaje', 'No disponible')}")
+        
+        
+        if 'generaciones' in resultado:
+            for idx, gen in enumerate(resultado['generaciones']):
+                print(f" Generación {idx+1}: {gen}")
+        elif 'evolucion' in resultado and 'generaciones' in resultado['evolucion']:
+            for idx, gen in enumerate(resultado['evolucion']['generaciones']):
+                print(f" Generación {idx+1}: {gen}")
+        else:
+            print("\nNo se encontró información de generaciones en la respuesta.")
+            
+        
+        required_fields = ['mejor_solucion', 'puntaje', 'asignacion']
+        for field in required_fields:
+            assert field in resultado, f"El campo '{field}' no está presente en la respuesta."
+        
+        
+        assert isinstance(resultado.get("mejor_solucion", []), list), "El campo 'mejor_solucion' no es una lista válida."
+        assert isinstance(resultado.get("puntaje", -1), float), "El puntaje no es un número flotante válido."
+        assert isinstance(resultado.get("asignacion", []), list), "El campo 'asignacion' no es una lista válida."
+        
+        print(f"\nPrueba de optimización para {algoritmo} completada con éxito" )
+        print(f"\n--------------------------------------------------------------------------- " )

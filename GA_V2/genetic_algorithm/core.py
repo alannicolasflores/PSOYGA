@@ -72,19 +72,21 @@ class AlgoritmoGenetico:
         mejor_individuo = None
         mejor_aptitud = -float('inf')
         contador_sin_mejora = 0
+        historial_generaciones = []
         
         # Si solo hay un recurso, devolver directamente la mejor solución
         if self.longitud_individuo == 1:
             mejor_individuo = [1]  # Seleccionar el único recurso disponible
             mejor_aptitud = self.funcion_aptitud(mejor_individuo, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma)
-            return mejor_individuo, mejor_aptitud, 1
+            historial_generaciones.append(mejor_aptitud)
+            return mejor_individuo, mejor_aptitud, 1, historial_generaciones
         
         for generacion in range(generaciones):
                 
             poblacion = self.evolucionar(poblacion)
             individuo_actual_mejor = max(poblacion, key=lambda x: self.funcion_aptitud(x, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma))
             aptitud_actual_mejor = self.funcion_aptitud(individuo_actual_mejor, self.datos_estudiante, self.datos_materiales, self.alpha, self.beta, self.sigma)
-            
+            historial_generaciones.append(aptitud_actual_mejor)
             if aptitud_actual_mejor > mejor_aptitud:
                 mejor_individuo = individuo_actual_mejor
                 mejor_aptitud = aptitud_actual_mejor
@@ -95,4 +97,4 @@ class AlgoritmoGenetico:
             if contador_sin_mejora >= self.generaciones_detencion_temprana:
                 print(f"Deteniendo temprano en la generación {generacion + 1} (sin mejora en {self.generaciones_detencion_temprana} generaciones).")
                 break
-        return mejor_individuo, mejor_aptitud, generacion + 1
+        return mejor_individuo, mejor_aptitud, generacion + 1, historial_generaciones

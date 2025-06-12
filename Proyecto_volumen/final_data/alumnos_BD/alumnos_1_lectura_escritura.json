@@ -1,0 +1,5006 @@
+{
+    "alumno_217": {
+        "id": 217,
+        "nombre": "Carlos Hernández Gil",
+        "tipos_aprendizaje": {
+            "visual": 12,
+            "auditivo": 10,
+            "lectura_escritura": 58,
+            "kinestesico": 20
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_218": {
+        "id": 218,
+        "nombre": "Pedro Pérez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 13,
+            "auditivo": 21,
+            "lectura_escritura": 59,
+            "kinestesico": 7
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_219": {
+        "id": 219,
+        "nombre": "Alan Martínez Torres",
+        "tipos_aprendizaje": {
+            "visual": 9,
+            "auditivo": 17,
+            "lectura_escritura": 52,
+            "kinestesico": 22
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_220": {
+        "id": 220,
+        "nombre": "Maria Pérez Gil",
+        "tipos_aprendizaje": {
+            "visual": 1,
+            "auditivo": 20,
+            "lectura_escritura": 59,
+            "kinestesico": 20
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_221": {
+        "id": 221,
+        "nombre": "Maria Díaz Moreno",
+        "tipos_aprendizaje": {
+            "visual": 2,
+            "auditivo": 1,
+            "lectura_escritura": 52,
+            "kinestesico": 45
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_222": {
+        "id": 222,
+        "nombre": "Carlos Gómez Fernández",
+        "tipos_aprendizaje": {
+            "visual": 39,
+            "auditivo": 5,
+            "lectura_escritura": 53,
+            "kinestesico": 3
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_223": {
+        "id": 223,
+        "nombre": "Ana Jiménez Gil",
+        "tipos_aprendizaje": {
+            "visual": 19,
+            "auditivo": 12,
+            "lectura_escritura": 53,
+            "kinestesico": 16
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_224": {
+        "id": 224,
+        "nombre": "Maria Pérez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 3,
+            "auditivo": 17,
+            "lectura_escritura": 56,
+            "kinestesico": 24
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_225": {
+        "id": 225,
+        "nombre": "Raúl Hernández Ruiz",
+        "tipos_aprendizaje": {
+            "visual": 3,
+            "auditivo": 23,
+            "lectura_escritura": 59,
+            "kinestesico": 15
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_226": {
+        "id": 226,
+        "nombre": "Raúl Rodríguez Vázquez",
+        "tipos_aprendizaje": {
+            "visual": 4,
+            "auditivo": 35,
+            "lectura_escritura": 55,
+            "kinestesico": 6
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_227": {
+        "id": 227,
+        "nombre": "Alan Hernández Ramos",
+        "tipos_aprendizaje": {
+            "visual": 19,
+            "auditivo": 16,
+            "lectura_escritura": 53,
+            "kinestesico": 12
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_228": {
+        "id": 228,
+        "nombre": "Ana Jiménez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 20,
+            "auditivo": 5,
+            "lectura_escritura": 56,
+            "kinestesico": 19
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_229": {
+        "id": 229,
+        "nombre": "Pedro Díaz Fernández",
+        "tipos_aprendizaje": {
+            "visual": 3,
+            "auditivo": 21,
+            "lectura_escritura": 50,
+            "kinestesico": 26
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_230": {
+        "id": 230,
+        "nombre": "Ana Sánchez Moreno",
+        "tipos_aprendizaje": {
+            "visual": 34,
+            "auditivo": 7,
+            "lectura_escritura": 50,
+            "kinestesico": 9
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_231": {
+        "id": 231,
+        "nombre": "Javier Gómez Gil",
+        "tipos_aprendizaje": {
+            "visual": 4,
+            "auditivo": 30,
+            "lectura_escritura": 52,
+            "kinestesico": 14
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_232": {
+        "id": 232,
+        "nombre": "Javier Gómez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 28,
+            "auditivo": 7,
+            "lectura_escritura": 56,
+            "kinestesico": 9
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_233": {
+        "id": 233,
+        "nombre": "Luis Martínez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 31,
+            "auditivo": 12,
+            "lectura_escritura": 55,
+            "kinestesico": 2
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_234": {
+        "id": 234,
+        "nombre": "Carlos Pérez Gil",
+        "tipos_aprendizaje": {
+            "visual": 14,
+            "auditivo": 19,
+            "lectura_escritura": 51,
+            "kinestesico": 16
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_235": {
+        "id": 235,
+        "nombre": "Raúl Pérez Alonso",
+        "tipos_aprendizaje": {
+            "visual": 41,
+            "auditivo": 3,
+            "lectura_escritura": 54,
+            "kinestesico": 2
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_236": {
+        "id": 236,
+        "nombre": "Javier Sánchez Gil",
+        "tipos_aprendizaje": {
+            "visual": 32,
+            "auditivo": 17,
+            "lectura_escritura": 50,
+            "kinestesico": 1
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_237": {
+        "id": 237,
+        "nombre": "Carlos Gómez Fernández",
+        "tipos_aprendizaje": {
+            "visual": 4,
+            "auditivo": 24,
+            "lectura_escritura": 54,
+            "kinestesico": 18
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_238": {
+        "id": 238,
+        "nombre": "Javier Hernández Alonso",
+        "tipos_aprendizaje": {
+            "visual": 3,
+            "auditivo": 16,
+            "lectura_escritura": 50,
+            "kinestesico": 31
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_239": {
+        "id": 239,
+        "nombre": "Pedro López Gil",
+        "tipos_aprendizaje": {
+            "visual": 1,
+            "auditivo": 12,
+            "lectura_escritura": 56,
+            "kinestesico": 31
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_240": {
+        "id": 240,
+        "nombre": "José Díaz Muñoz",
+        "tipos_aprendizaje": {
+            "visual": 33,
+            "auditivo": 2,
+            "lectura_escritura": 55,
+            "kinestesico": 10
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_241": {
+        "id": 241,
+        "nombre": "Marta Hernández Ramos",
+        "tipos_aprendizaje": {
+            "visual": 2,
+            "auditivo": 8,
+            "lectura_escritura": 56,
+            "kinestesico": 34
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_242": {
+        "id": 242,
+        "nombre": "Marta Rodríguez Romero",
+        "tipos_aprendizaje": {
+            "visual": 29,
+            "auditivo": 10,
+            "lectura_escritura": 57,
+            "kinestesico": 4
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_243": {
+        "id": 243,
+        "nombre": "Javier Díaz Muñoz",
+        "tipos_aprendizaje": {
+            "visual": 4,
+            "auditivo": 32,
+            "lectura_escritura": 50,
+            "kinestesico": 14
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_244": {
+        "id": 244,
+        "nombre": "José Martínez Gil",
+        "tipos_aprendizaje": {
+            "visual": 8,
+            "auditivo": 21,
+            "lectura_escritura": 50,
+            "kinestesico": 21
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_245": {
+        "id": 245,
+        "nombre": "Carlos Gómez Torres",
+        "tipos_aprendizaje": {
+            "visual": 27,
+            "auditivo": 10,
+            "lectura_escritura": 57,
+            "kinestesico": 6
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_246": {
+        "id": 246,
+        "nombre": "Raúl Sánchez Torres",
+        "tipos_aprendizaje": {
+            "visual": 20,
+            "auditivo": 13,
+            "lectura_escritura": 50,
+            "kinestesico": 17
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_247": {
+        "id": 247,
+        "nombre": "Pedro Martínez Vázquez",
+        "tipos_aprendizaje": {
+            "visual": 5,
+            "auditivo": 15,
+            "lectura_escritura": 54,
+            "kinestesico": 26
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_248": {
+        "id": 248,
+        "nombre": "Ana López Moreno",
+        "tipos_aprendizaje": {
+            "visual": 10,
+            "auditivo": 5,
+            "lectura_escritura": 51,
+            "kinestesico": 34
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_249": {
+        "id": 249,
+        "nombre": "Maria Pérez Gil",
+        "tipos_aprendizaje": {
+            "visual": 19,
+            "auditivo": 8,
+            "lectura_escritura": 55,
+            "kinestesico": 18
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_250": {
+        "id": 250,
+        "nombre": "Alan Jiménez Vázquez",
+        "tipos_aprendizaje": {
+            "visual": 11,
+            "auditivo": 10,
+            "lectura_escritura": 52,
+            "kinestesico": 27
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_251": {
+        "id": 251,
+        "nombre": "Raúl Jiménez Romero",
+        "tipos_aprendizaje": {
+            "visual": 46,
+            "auditivo": 1,
+            "lectura_escritura": 52,
+            "kinestesico": 1
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    },
+    "alumno_252": {
+        "id": 252,
+        "nombre": "Pedro Martínez Ruiz",
+        "tipos_aprendizaje": {
+            "visual": 9,
+            "auditivo": 20,
+            "lectura_escritura": 52,
+            "kinestesico": 19
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Aspectos básicos de las bases de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Sistema gestor de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Sistema de base de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Modelos de datos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Aspectos teóricos del modelo entidad - relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Trazado de diagramas entidad – relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Modelo entidad – relación extendido",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Aspectos básicos del modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Transformación del modelo entidad – relación (extendido) al modelo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Introducción a SQL",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Dependencias funcionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Normalización",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Operaciones básicas de base de datos relacionales",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Operaciones de la teoría de conjuntos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 15,
+                    "nombre_tema": "Operaciones de reunión",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 16,
+                    "nombre_tema": "Funciones agregadas y agrupación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 17,
+                    "nombre_tema": "División",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 18,
+                    "nombre_tema": "Cálculo relacional",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 19,
+                    "nombre_tema": "Consultas simples",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 20,
+                    "nombre_tema": "Consultas con más de una relación",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 21,
+                    "nombre_tema": "Subconsultas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 22,
+                    "nombre_tema": "Transacciones",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 23,
+                    "nombre_tema": "Manejo de vistas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 24,
+                    "nombre_tema": "Disparadores y procedimientos almacenados",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 25,
+                    "nombre_tema": "Asignación de permisos",
+                    "nivel": 1
+                }
+            ]
+        }
+    }
+}

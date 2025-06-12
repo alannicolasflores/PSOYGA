@@ -1,9 +1,11 @@
-import os
 import json
+import os
 from datetime import datetime
+
 from .optimizer.data_loader import load_data, preprocess_data_from_json
-from .optimizer.resource_processor import extract_resources
 from .optimizer.optimizer import optimize_resources
+from .optimizer.resource_processor import extract_resources
+
 
 def run(alumno=None, unidad_aprendizaje=None):
     if alumno and unidad_aprendizaje:
@@ -14,7 +16,7 @@ def run(alumno=None, unidad_aprendizaje=None):
         student_styles = alumno.get("tipos_aprendizaje", {})
         resources = extract_resources(unidad_aprendizaje)
 
-    best_solution, best_score = optimize_resources(student_knowledge, student_styles, resources)
+    best_solution, best_score, generaciones = optimize_resources(student_knowledge, student_styles, resources)
 
     asignacion = []
     tema_index = 0
@@ -52,13 +54,15 @@ def run(alumno=None, unidad_aprendizaje=None):
                 asignacion.append({
                     "id_tema": int(tema.get("id", 0)),
                     "nombre_tema": str(nombre_tema),
-                    "materiales": materiales_tema
+                    "materiales": materiales_tema,
+                    
                 })
 
     resultado = {
         "mejor_solucion": [int(x) for x in best_solution],
         "puntaje": float(best_score),
-        "asignacion": asignacion
+        "asignacion": asignacion,
+        "generaciones": generaciones,
     }
 
     return resultado

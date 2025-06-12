@@ -47,17 +47,17 @@ def run(alumno=None, unidad_aprendizaje=None):
             funcion_aptitud=funcion_aptitud,
             tasa_mutacion=0.01,
             tasa_de_cruza=0.8,
-            tamano_poblacion=50,
+            tamano_poblacion=30,
             longitud_individuo=longitud_individuo,
             datos_estudiante=datos_estudiante,
             datos_materiales=datos_materiales,
-            alpha=0.6,
-            beta=0.4,
+            alpha=0.4,
+            beta=0.6,
             sigma=2,
             generaciones_detencion_temprana=10
         )
 
-        mejor_solucion, mejor_aptitud, generacion_detencion = algoritmo_genetico.ejecutar(100)
+        mejor_solucion, mejor_aptitud, generacion_detencion, generaciones = algoritmo_genetico.ejecutar(100)
 
         asignacion = []
         tema_index = 0
@@ -83,9 +83,12 @@ def run(alumno=None, unidad_aprendizaje=None):
                     })
 
         return {
+            
             "mejor_solucion": mejor_solucion, 
             "puntaje": mejor_aptitud, 
-            "asignacion": asignacion
+            "asignacion": asignacion,
+            "generaciones": generaciones,
+            
         }
     
     except Exception as e:

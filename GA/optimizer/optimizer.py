@@ -1,7 +1,8 @@
 import random
-from .population import initialize_population, binary_to_decimal
-from . import objective_function, selection, crossover, mutation, replacement
+
 from ..config import SETTINGS
+from . import crossover, mutation, objective_function, replacement, selection
+from .population import binary_to_decimal, initialize_population
 from .utils import preprocess_resource_data
 
 
@@ -63,7 +64,8 @@ def optimize_resources(student_knowledge, student_styles, resources):
         print(f"  - Dificultad: {res.get('difficulty')}")
         print(f"  - Nivel de conocimiento requerido: {res.get('knowledge')}")
         print(f"  - Estilos de aprendizaje: {res.get('learning_styles')}")
-
+    
+    historial_generaciones = []
     for generation in range(generations):
         print(f"\n=== GENERACIÓN {generation + 1} ===")
         
@@ -99,6 +101,7 @@ def optimize_resources(student_knowledge, student_styles, resources):
 
         # Show best path of current generation
         best_idx = fitness.index(max(fitness))
+        best_fitness_gen = max(fitness)
         print(f"\n=== MEJOR RUTA DE LA GENERACIÓN {generation + 1} ===")
         print(f"Puntuación: {max(fitness):.2f}")
         print("Recursos recomendados:")
@@ -144,6 +147,7 @@ def optimize_resources(student_knowledge, student_styles, resources):
         print(f"\nGeneración {generation + 1} completada")
         print(f"Mejor aptitud actual: {max(fitness):.2f}")
         print(f"Mejor aptitud histórica: {best_historical_fitness:.2f}")
+        historial_generaciones.append(best_fitness_gen)
 
     print("\n=== RESULTADO FINAL ===")
     print(f"Mejor puntuación alcanzada: {best_historical_fitness:.2f}")
@@ -155,4 +159,4 @@ def optimize_resources(student_knowledge, student_styles, resources):
     # Convertir la mejor solución a formato binario (0 o 1)
     binary_solution = [1 if x > 50 else 0 for x in best_solution]
     
-    return binary_solution, best_historical_fitness
+    return binary_solution, best_historical_fitness, historial_generaciones

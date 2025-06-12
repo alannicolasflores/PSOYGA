@@ -1,0 +1,3062 @@
+{
+    "alumno_1": {
+        "id": 1,
+        "nombre": "Marta Jiménez Muñoz",
+        "tipos_aprendizaje": {
+            "visual": 57,
+            "auditivo": 3,
+            "lectura_escritura": 8,
+            "kinestesico": 32
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_2": {
+        "id": 2,
+        "nombre": "Pedro López Alonso",
+        "tipos_aprendizaje": {
+            "visual": 52,
+            "auditivo": 6,
+            "lectura_escritura": 24,
+            "kinestesico": 18
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_3": {
+        "id": 3,
+        "nombre": "Maria Hernández Gil",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 19,
+            "lectura_escritura": 14,
+            "kinestesico": 11
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_4": {
+        "id": 4,
+        "nombre": "Pedro Martínez Ruiz",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 14,
+            "lectura_escritura": 25,
+            "kinestesico": 5
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_5": {
+        "id": 5,
+        "nombre": "Maria García Torres",
+        "tipos_aprendizaje": {
+            "visual": 60,
+            "auditivo": 10,
+            "lectura_escritura": 25,
+            "kinestesico": 5
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_6": {
+        "id": 6,
+        "nombre": "Carlos Rodríguez Alonso",
+        "tipos_aprendizaje": {
+            "visual": 51,
+            "auditivo": 4,
+            "lectura_escritura": 25,
+            "kinestesico": 20
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_7": {
+        "id": 7,
+        "nombre": "José Sánchez Alonso",
+        "tipos_aprendizaje": {
+            "visual": 58,
+            "auditivo": 6,
+            "lectura_escritura": 24,
+            "kinestesico": 12
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_8": {
+        "id": 8,
+        "nombre": "José Jiménez Ruiz",
+        "tipos_aprendizaje": {
+            "visual": 50,
+            "auditivo": 3,
+            "lectura_escritura": 26,
+            "kinestesico": 21
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_9": {
+        "id": 9,
+        "nombre": "Marta López Romero",
+        "tipos_aprendizaje": {
+            "visual": 60,
+            "auditivo": 22,
+            "lectura_escritura": 7,
+            "kinestesico": 11
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_10": {
+        "id": 10,
+        "nombre": "Luis Martínez Romero",
+        "tipos_aprendizaje": {
+            "visual": 54,
+            "auditivo": 9,
+            "lectura_escritura": 34,
+            "kinestesico": 3
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_11": {
+        "id": 11,
+        "nombre": "Maria Díaz Torres",
+        "tipos_aprendizaje": {
+            "visual": 55,
+            "auditivo": 25,
+            "lectura_escritura": 16,
+            "kinestesico": 4
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_12": {
+        "id": 12,
+        "nombre": "Luis García Romero",
+        "tipos_aprendizaje": {
+            "visual": 55,
+            "auditivo": 23,
+            "lectura_escritura": 11,
+            "kinestesico": 11
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_13": {
+        "id": 13,
+        "nombre": "José Rodríguez Gil",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 32,
+            "lectura_escritura": 10,
+            "kinestesico": 2
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_14": {
+        "id": 14,
+        "nombre": "Maria Hernández Torres",
+        "tipos_aprendizaje": {
+            "visual": 60,
+            "auditivo": 3,
+            "lectura_escritura": 23,
+            "kinestesico": 14
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_15": {
+        "id": 15,
+        "nombre": "José Sánchez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 58,
+            "auditivo": 11,
+            "lectura_escritura": 16,
+            "kinestesico": 15
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_16": {
+        "id": 16,
+        "nombre": "Carlos Jiménez Moreno",
+        "tipos_aprendizaje": {
+            "visual": 53,
+            "auditivo": 32,
+            "lectura_escritura": 10,
+            "kinestesico": 5
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_17": {
+        "id": 17,
+        "nombre": "José Jiménez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 55,
+            "auditivo": 20,
+            "lectura_escritura": 21,
+            "kinestesico": 4
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_18": {
+        "id": 18,
+        "nombre": "Ana Pérez Moreno",
+        "tipos_aprendizaje": {
+            "visual": 55,
+            "auditivo": 5,
+            "lectura_escritura": 21,
+            "kinestesico": 19
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_19": {
+        "id": 19,
+        "nombre": "Marta Sánchez Moreno",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 24,
+            "lectura_escritura": 2,
+            "kinestesico": 18
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_20": {
+        "id": 20,
+        "nombre": "Alan Gómez Torres",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 13,
+            "lectura_escritura": 24,
+            "kinestesico": 7
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_21": {
+        "id": 21,
+        "nombre": "Luis Rodríguez Fernández",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 28,
+            "lectura_escritura": 14,
+            "kinestesico": 2
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_22": {
+        "id": 22,
+        "nombre": "Marta Rodríguez Romero",
+        "tipos_aprendizaje": {
+            "visual": 56,
+            "auditivo": 24,
+            "lectura_escritura": 17,
+            "kinestesico": 3
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_23": {
+        "id": 23,
+        "nombre": "Maria Rodríguez Ruiz",
+        "tipos_aprendizaje": {
+            "visual": 52,
+            "auditivo": 2,
+            "lectura_escritura": 38,
+            "kinestesico": 8
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_24": {
+        "id": 24,
+        "nombre": "Pedro Díaz Moreno",
+        "tipos_aprendizaje": {
+            "visual": 59,
+            "auditivo": 6,
+            "lectura_escritura": 11,
+            "kinestesico": 24
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_25": {
+        "id": 25,
+        "nombre": "Alan Sánchez Torres",
+        "tipos_aprendizaje": {
+            "visual": 58,
+            "auditivo": 11,
+            "lectura_escritura": 15,
+            "kinestesico": 16
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_26": {
+        "id": 26,
+        "nombre": "Carlos Rodríguez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 57,
+            "auditivo": 24,
+            "lectura_escritura": 7,
+            "kinestesico": 12
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_27": {
+        "id": 27,
+        "nombre": "Marta Pérez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 53,
+            "auditivo": 24,
+            "lectura_escritura": 9,
+            "kinestesico": 14
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_28": {
+        "id": 28,
+        "nombre": "Raúl Martínez Gil",
+        "tipos_aprendizaje": {
+            "visual": 60,
+            "auditivo": 2,
+            "lectura_escritura": 22,
+            "kinestesico": 16
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_29": {
+        "id": 29,
+        "nombre": "Luis Pérez Torres",
+        "tipos_aprendizaje": {
+            "visual": 54,
+            "auditivo": 5,
+            "lectura_escritura": 1,
+            "kinestesico": 40
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_30": {
+        "id": 30,
+        "nombre": "Alan Rodríguez Moreno",
+        "tipos_aprendizaje": {
+            "visual": 53,
+            "auditivo": 7,
+            "lectura_escritura": 36,
+            "kinestesico": 4
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_31": {
+        "id": 31,
+        "nombre": "Ana Hernández Moreno",
+        "tipos_aprendizaje": {
+            "visual": 57,
+            "auditivo": 18,
+            "lectura_escritura": 14,
+            "kinestesico": 11
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_32": {
+        "id": 32,
+        "nombre": "Marta Sánchez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 53,
+            "auditivo": 27,
+            "lectura_escritura": 11,
+            "kinestesico": 9
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_33": {
+        "id": 33,
+        "nombre": "Pedro Martínez Gil",
+        "tipos_aprendizaje": {
+            "visual": 60,
+            "auditivo": 32,
+            "lectura_escritura": 7,
+            "kinestesico": 1
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_34": {
+        "id": 34,
+        "nombre": "Javier Hernández Fernández",
+        "tipos_aprendizaje": {
+            "visual": 51,
+            "auditivo": 36,
+            "lectura_escritura": 3,
+            "kinestesico": 10
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_35": {
+        "id": 35,
+        "nombre": "Marta Sánchez Ramos",
+        "tipos_aprendizaje": {
+            "visual": 53,
+            "auditivo": 15,
+            "lectura_escritura": 20,
+            "kinestesico": 12
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    },
+    "alumno_36": {
+        "id": 36,
+        "nombre": "Pedro Martínez Vázquez",
+        "tipos_aprendizaje": {
+            "visual": 59,
+            "auditivo": 18,
+            "lectura_escritura": 11,
+            "kinestesico": 12
+        },
+        "test_inicial": {
+            "temas": [
+                {
+                    "id_tema": 1,
+                    "nombre_tema": "Fundamentos de ingeniería de software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 2,
+                    "nombre_tema": "Plan de proyecto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 3,
+                    "nombre_tema": "Modelos de procesos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 4,
+                    "nombre_tema": "Principios y metodologías ágiles",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 5,
+                    "nombre_tema": "Ingeniería de requerimientos",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 6,
+                    "nombre_tema": "Diseño del sistema software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 7,
+                    "nombre_tema": "Herramientas de modelado",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 8,
+                    "nombre_tema": "Tipos de pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 9,
+                    "nombre_tema": "Herramientas para pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 10,
+                    "nombre_tema": "Evaluación de las pruebas",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 11,
+                    "nombre_tema": "Calidad del proceso software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 12,
+                    "nombre_tema": "Calidad del producto software",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 13,
+                    "nombre_tema": "Modelos y normas de calidad",
+                    "nivel": 1
+                },
+                {
+                    "id_tema": 14,
+                    "nombre_tema": "Modelos de madurez",
+                    "nivel": 1
+                }
+            ]
+        },
+        "unidad_aprendizaje": {}
+    }
+}

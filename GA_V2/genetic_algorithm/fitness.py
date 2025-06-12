@@ -41,11 +41,14 @@ def funcion_aptitud(individuo: List[int], datos_estudiante: dict, datos_material
         
     #print(f'Debug del puntaje de estilos despues del promedio: {puntaje_estilos:.2f}')
     # Penalización para evitar selección excesiva de materiales
-    penalty = 0.18 * num_selected
-    max_resources = 24
+    
+    penalty = 0.25 * num_selected 
+    
+    max_resources = 100
     if num_selected > max_resources:
         penalty += 10  
-
+   
+    
     # Cálculo final de aptitud
     #Debug de funcion objetivo
     #print(f"Evaluacion: {puntaje_evaluacion:.2f} y Estilo: {puntaje_estilos}") 
